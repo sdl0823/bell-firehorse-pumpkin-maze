@@ -148,3 +148,8 @@ node scripts/verify_assets.mjs
 舊100題瀏覽器匯入快取不會蓋過本次更新；設計師如有自訂版本，請在 /designer.html 重新匯入。本次未刪除舊資料。
 雲端主表已追加200題，逐格讀回與本機新增資料相同（忽略行尾格式）；原100題讀回未變。
 驗證包含3000組種子抽題覆蓋300題、Excel逐題一致性及種子300-questions、42、b4d3fc71實體走圖至雙角色通關。
+
+
+### 從GitHub重新下載後驗證
+執行 `npm ci`、`npm test`、`npm run build:pages`。CSV測試使用已納入版本控制的300題維護表，不依賴本機暫存資料。
+`npx tsx scripts/validate_sheet.ts` 檢查300題Excel與正式題庫一致。`python scripts/build_question_bank.py` 為300題產生器入口（額外需要Python及openpyxl；遊玩與一般npm建置不需要Python）。
