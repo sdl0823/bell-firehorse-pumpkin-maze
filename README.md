@@ -133,3 +133,11 @@ node scripts/verify_assets.mjs
 - 教學答對第一題只開第一道門，三題皆答對且兩位角色抵達出口才完成。3 秒後進入原種子的正式第 1 關，不增加正式完成數、不儲存教學最佳成績。
 - 點擊開始冒險、操作教學、跳過教學、新的一關或重玩時預設開啟音樂與音效；可手動靜音。自動換關保留當下音訊偏好。
 - 驗證：`npm test` 30/30 通過；`npm run build` 通過（Phaser 主包大小提示仍存在）。瀏覽器實走種子 `cf865ebc` 的三題固定教學，進度依序 1/3、2/3、3/3，雙角色出口後回到正式第 1 關，種子保留、完成數 0。啟動教學後 audio.readyState=4、paused=false，來源 /audio/level.wav；自動轉正式關仍播放。音效的啟用與暫停/靜音清除由 FakeAudio 測試驗證，未進行人工聽音品質評估。
+
+## GitHub 與正式發布
+- 原始碼：https://github.com/sdl0823/bell-firehorse-pumpkin-maze
+- 遊戲：https://sdl0823.github.io/bell-firehorse-pumpkin-maze/
+- 本機啟動：`npm ci`、`npm run dev`。
+- 驗證：`npm test`。正式建置：`npm run build:pages`，結果在 `docs/`。
+- 更新發布：建置後將程式及 `docs/` 提交並推送至 main；GitHub Pages 使用 main 的 /docs。
+- 正式網站不包含 designer.html；設計師在本機開啟 /designer.html 維護題庫。雲端試算表修改不會即時改寫已發布版本，需匯出、更新 public/data/halloween-100-v2.json，再建置發布。
