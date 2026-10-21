@@ -1,9 +1,9 @@
 import {test} from 'node:test';import assert from 'node:assert/strict';
-import bank from '../public/data/halloween-100-v2.json';
+import bank from '../public/data/halloween-300-v1.json';
 import {getBankInfo,questions,installQuestionBank} from '../src/questions';
 import {loadQuestionBank} from '../src/questionLoader';import {sampleRound} from '../src/round';import {generateLevel} from '../src/generator';
-test('100題資料、400個選項、300條錯因完整且題幹不重複',()=>{assert.equal(questions.length,100);assert.equal(new Set(questions.map(q=>q.prompt)).size,100);assert.equal(questions.flatMap(q=>q.options).length,400);assert.equal(questions.flatMap(q=>q.options).filter(o=>o.wrongReason).length,300);});
-test('100題每關抽3題不重複；1000種子涵蓋全部100題且可重現',()=>{const seen=new Set<string>();for(let i=0;i<1000;i++){const seed=`bank-${i}`,a=sampleRound(questions,seed,getBankInfo().key),b=sampleRound(questions,seed,getBankInfo().key);assert.equal(a.length,3);assert.equal(new Set(a.map(q=>q.id)).size,3);assert.deepEqual(a,b);for(const q of a)seen.add(q.id);}assert.equal(seen.size,100);});
+test('300題資料、1200個選項、900條錯因完整且題幹不重複',()=>{assert.equal(questions.length,300);assert.equal(new Set(questions.map(q=>q.prompt)).size,300);assert.equal(questions.flatMap(q=>q.options).length,1200);assert.equal(questions.flatMap(q=>q.options).filter(o=>o.wrongReason).length,900);});
+test('300題每關抽3題不重複；3000種子涵蓋全部300題且可重現',()=>{const seen=new Set<string>();for(let i=0;i<3000;i++){const seed=`bank-${i}`,a=sampleRound(questions,seed,getBankInfo().key),b=sampleRound(questions,seed,getBankInfo().key);assert.equal(a.length,3);assert.equal(new Set(a.map(q=>q.id)).size,3);assert.deepEqual(a,b);for(const q of a)seen.add(q.id);}assert.equal(seen.size,300);});
 test('題庫檔案載入成功；網路失敗、重複ID與缺漏錯因保留有效題庫',async()=>{const fake=async()=>new Response(JSON.stringify(bank),{status:200,headers:{'content-type':'application/json'}});assert.equal((await loadQuestionBank('/test',fake as typeof fetch)).ok,true);const before=getBankInfo().key;assert.equal((await loadQuestionBank('/test',(async()=>{throw new Error('offline');}) as typeof fetch)).ok,false);assert.equal(getBankInfo().key,before);const bad=structuredClone(bank);bad.questions[1].id=bad.questions[0].id;assert.throws(()=>installQuestionBank(bad,'test'));assert.equal(getBankInfo().key,before);});
 test('顯示題庫版本與內容指紋，地圖種子與題庫共同可重現',()=>{const level=generateLevel('100-questions');assert.equal(level.bankVersion,getBankInfo().key);assert.deepEqual(level,generateLevel('100-questions'));});
 

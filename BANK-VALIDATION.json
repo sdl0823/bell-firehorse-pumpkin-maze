@@ -1,0 +1,46 @@
+{
+  "bank": {
+    "version": "halloween-300-v1",
+    "title": "小貝爾與火馬・萬聖節300題",
+    "source": "內建備用",
+    "key": "halloween-300-v1@0a532e63",
+    "count": 300
+  },
+  "count": 300,
+  "options": 1200,
+  "wrongReasons": 900,
+  "seeds": "bank-0 through bank-2999",
+  "coveredQuestions": 300,
+  "examples": [
+    {
+      "seed": "300-questions",
+      "questionIds": [
+        "halloween-extra-131",
+        "halloween-extra-143",
+        "halloween-extra-268"
+      ],
+      "won": true,
+      "moves": 61
+    },
+    {
+      "seed": "42",
+      "questionIds": [
+        "halloween-extra-298",
+        "halloween-extra-208",
+        "halloween-extra-242"
+      ],
+      "won": true,
+      "moves": 59
+    },
+    {
+      "seed": "b4d3fc71",
+      "questionIds": [
+        "halloween-extra-162",
+        "halloween-extra-274",
+        "ghost-count"
+      ],
+      "won": true,
+      "moves": 59
+    }
+  ]
+}

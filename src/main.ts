@@ -11,7 +11,7 @@ import {loadQuestionBank} from './questionLoader';
 import {advanceRound,NEXT_ROUND_DELAY} from './session';
 async function bootstrap(){
 await loadQuestionBank();
-try{const saved=localStorage.getItem('pumpkin-imported-bank-v1');if(saved)installQuestionBank(JSON.parse(saved),'已儲存的匯入題庫');}catch{/* Keep the valid bundled/data-file bank. */}
+try{const saved=localStorage.getItem('pumpkin-imported-bank-v2-300');if(saved)installQuestionBank(JSON.parse(saved),'已儲存的匯入題庫');}catch{/* Keep the valid bundled/data-file bank. */}
 
 const app=document.querySelector<HTMLDivElement>('#app')!;
 app.innerHTML=`<main><div class="soundbar"><button id="sound-toggle" aria-pressed="false">♫ 開啟音樂與音效</button></div>

@@ -1,4 +1,4 @@
-import bundled from '../public/data/halloween-100-v2.json';
+import bundled from '../public/data/halloween-300-v1.json';
 import legacy from './tutorial-bank.json';
 export interface Option {id:string;text:string;wrongReason?:string}
 export interface Question {id:string;category?:string;prompt:string;options:Option[];answer:{id:string;optionId:string};hint:{id:string;text:string}}

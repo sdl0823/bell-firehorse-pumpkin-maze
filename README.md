@@ -141,3 +141,10 @@ node scripts/verify_assets.mjs
 - 驗證：`npm test`。正式建置：`npm run build:pages`，結果在 `docs/`。
 - 更新發布：建置後將程式及 `docs/` 提交並推送至 main；GitHub Pages 使用 main 的 /docs。
 - 正式網站不包含 designer.html；設計師在本機開啟 /designer.html 維護題庫。雲端試算表修改不會即時改寫已發布版本，需匯出、更新 public/data/halloween-100-v2.json，再建置發布。
+
+
+## 300題版本更新
+正式資料主檔為 `public/data/halloween-300-v1.json`，維護用Excel為 `cloud-question-bank/萬聖節300題-維護主表.xlsx`。保留原100題不變，新增200題，合計1200選項、900錯因。每關仍抽3題不重複，教學三題維持獨立。
+舊100題瀏覽器匯入快取不會蓋過本次更新；設計師如有自訂版本，請在 /designer.html 重新匯入。本次未刪除舊資料。
+雲端主表已追加200題，逐格讀回與本機新增資料相同（忽略行尾格式）；原100題讀回未變。
+驗證包含3000組種子抽題覆蓋300題、Excel逐題一致性及種子300-questions、42、b4d3fc71實體走圖至雙角色通關。
