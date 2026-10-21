@@ -1,0 +1,106 @@
+{
+  "schemaVersion": 1,
+  "version": "tutorial-controls-v2",
+  "title": "三題完整操作教學",
+  "questions": [
+    {
+      "id": "tutorial-move",
+      "prompt": "如何操作小貝爾，走到下一盞南瓜燈？",
+      "options": [
+        {
+          "id": "tutorial-move.keys",
+          "text": "使用方向鍵或 WASD 移動"
+        },
+        {
+          "id": "tutorial-move.click",
+          "text": "點題目文字就會自動移動",
+          "wrongReason": "題目文字不會替你移動，請使用方向鍵、WASD 或畫面方向按鈕。"
+        },
+        {
+          "id": "tutorial-move.wall",
+          "text": "直接穿過牆壁",
+          "wrongReason": "牆壁不能通行，請沿地面通路繞行。"
+        },
+        {
+          "id": "tutorial-move.horse",
+          "text": "改用鍵盤控制火馬",
+          "wrongReason": "你只控制小貝爾，火馬會沿安全通路跟隨。"
+        }
+      ],
+      "answer": {
+        "id": "tutorial-move.answer",
+        "optionId": "tutorial-move.keys"
+      },
+      "hint": {
+        "id": "tutorial-move.hint",
+        "text": "方向鍵或 WASD 移動；手機也可點畫面下方的方向按鈕。靠近下一盞燈按 E 讀題。"
+      }
+    },
+    {
+      "id": "tutorial-choose",
+      "prompt": "讀完南瓜燈的題目後，要怎麼選答案？",
+      "options": [
+        {
+          "id": "tutorial-choose.text",
+          "text": "直接點提示裡的答案文字",
+          "wrongReason": "提示文字只供閱讀，不能遠端完成選路。"
+        },
+        {
+          "id": "tutorial-choose.walk",
+          "text": "親自走到 A／B／C／D 答案格，再按 E"
+        },
+        {
+          "id": "tutorial-choose.locked",
+          "text": "不讀題就往鎖門衝",
+          "wrongReason": "未讀題不能進答案格，答對前門障也不會開啟。"
+        },
+        {
+          "id": "tutorial-choose.wait",
+          "text": "站著等火馬代答",
+          "wrongReason": "火馬只會跟隨，不會替你選答案。"
+        }
+      ],
+      "answer": {
+        "id": "tutorial-choose.answer",
+        "optionId": "tutorial-choose.walk"
+      },
+      "hint": {
+        "id": "tutorial-choose.hint",
+        "text": "先在燈旁按 E，再走到答案格按 E；答錯能重試，H 可再次看提示，P 可暫停。"
+      }
+    },
+    {
+      "id": "tutorial-exit",
+      "prompt": "三道門都打開後，怎樣才算通關？",
+      "options": [
+        {
+          "id": "tutorial-exit.alone",
+          "text": "只有小貝爾到出口就離開",
+          "wrongReason": "必須等火馬也抵達出口，才算通關。"
+        },
+        {
+          "id": "tutorial-exit.teleport",
+          "text": "讓火馬穿牆到出口",
+          "wrongReason": "火馬與小貝爾遵守相同通行規則，不會穿牆或越過鎖門。"
+        },
+        {
+          "id": "tutorial-exit.both",
+          "text": "沿已開通的道路，讓小貝爾與火馬都抵達出口"
+        },
+        {
+          "id": "tutorial-exit.restart",
+          "text": "按 R 才能通關",
+          "wrongReason": "R 會重設本關；開完門後請走到出口並等火馬跟上。"
+        }
+      ],
+      "answer": {
+        "id": "tutorial-exit.answer",
+        "optionId": "tutorial-exit.both"
+      },
+      "hint": {
+        "id": "tutorial-exit.hint",
+        "text": "這是最後一道門！答對後沿道路向右走到出口，等火馬跟上；兩位都抵達才完成教學。"
+      }
+    }
+  ]
+}

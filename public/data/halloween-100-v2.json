@@ -1,0 +1,3411 @@
+{
+  "schemaVersion": 1,
+  "version": "halloween-100-v2",
+  "title": "小貝爾與火馬・萬聖節100題",
+  "language": "zh-Hant",
+  "roundSize": 3,
+  "cloudFolder": "https://drive.google.com/drive/folders/1gUnfHjZBOB9brin5vQ3MTg3ZBqzSSukA",
+  "questions": [
+    {
+      "id": "lantern-light",
+      "prompt": "南瓜燈想亮一整晚，又不想讓披風碰到火。肚子裡放什麼最合適？",
+      "options": [
+        {
+          "id": "lantern-light.ice",
+          "text": "一顆冰塊",
+          "wrongReason": "冰塊不會發光，而且會融化，無法持續照亮南瓜燈。"
+        },
+        {
+          "id": "lantern-light.crayon",
+          "text": "一支蠟筆",
+          "wrongReason": "蠟筆是畫畫工具，不是照明設備；點燃它也不符合避免明火的要求。"
+        },
+        {
+          "id": "lantern-light.led",
+          "text": "一盞 LED 小燈"
+        },
+        {
+          "id": "lantern-light.candy",
+          "text": "一把糖果",
+          "wrongReason": "糖果可以吃，卻不會發出照明所需的光。"
+        }
+      ],
+      "answer": {
+        "id": "lantern-light.answer",
+        "optionId": "lantern-light.led"
+      },
+      "hint": {
+        "id": "lantern-light.hint",
+        "text": "找找會發光、又不需要明火的東西。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "candy-pattern",
+      "prompt": "糖果排隊：南瓜糖、幽靈糖、蝙蝠糖、南瓜糖、幽靈糖……下一顆輪到誰？",
+      "options": [
+        {
+          "id": "candy-pattern.bat",
+          "text": "蝙蝠糖"
+        },
+        {
+          "id": "candy-pattern.pumpkin",
+          "text": "南瓜糖",
+          "wrongReason": "南瓜糖是每組的第一顆；目前已排到第二顆幽靈糖，不能重新跳回第一顆。"
+        },
+        {
+          "id": "candy-pattern.ghost",
+          "text": "幽靈糖",
+          "wrongReason": "剛剛已經排了幽靈糖，再放一顆會打亂三顆一組的規律。"
+        },
+        {
+          "id": "candy-pattern.corn",
+          "text": "玉米糖",
+          "wrongReason": "玉米糖沒有出現在這個重複排列的三顆一組中。"
+        }
+      ],
+      "answer": {
+        "id": "candy-pattern.answer",
+        "optionId": "candy-pattern.bat"
+      },
+      "hint": {
+        "id": "candy-pattern.hint",
+        "text": "每三顆重複一次：南瓜 → 幽靈 → 蝙蝠。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "costume-riddle",
+      "prompt": "變裝派對的邀請卡畫著「尖帽＋掃帚」。猜猜這次的裝扮主題？",
+      "options": [
+        {
+          "id": "costume-riddle.pirate",
+          "text": "海盜",
+          "wrongReason": "海盜常見的線索是海盜帽或船，無法同時對應題目的尖帽與掃帚。"
+        },
+        {
+          "id": "costume-riddle.mummy",
+          "text": "木乃伊",
+          "wrongReason": "木乃伊裝扮以包裹的布條為線索，與尖帽、掃帚不相符。"
+        },
+        {
+          "id": "costume-riddle.astronaut",
+          "text": "太空人",
+          "wrongReason": "太空人的線索是頭盔與太空衣，與尖帽、掃帚不相符。"
+        },
+        {
+          "id": "costume-riddle.witch",
+          "text": "巫師"
+        }
+      ],
+      "answer": {
+        "id": "costume-riddle.answer",
+        "optionId": "costume-riddle.witch"
+      },
+      "hint": {
+        "id": "costume-riddle.hint",
+        "text": "哪一種裝扮常把尖帽和掃帚一起帶出門？"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "ghost-count",
+      "prompt": "四個小幽靈來參加派對，每個拿兩顆糖。要準備幾顆糖？",
+      "options": [
+        {
+          "id": "ghost-count.six",
+          "text": "六顆",
+          "wrongReason": "六顆只夠三個小幽靈各拿兩顆，還有一個沒有拿到。"
+        },
+        {
+          "id": "ghost-count.eight",
+          "text": "八顆"
+        },
+        {
+          "id": "ghost-count.ten",
+          "text": "十顆",
+          "wrongReason": "十顆分成每份兩顆會有五份，比題目的四個小幽靈多一份。"
+        },
+        {
+          "id": "ghost-count.twelve",
+          "text": "十二顆",
+          "wrongReason": "十二顆分成每份兩顆會有六份，超過題目需要的四份。"
+        }
+      ],
+      "answer": {
+        "id": "ghost-count.answer",
+        "optionId": "ghost-count.eight"
+      },
+      "hint": {
+        "id": "ghost-count.hint",
+        "text": "把兩顆糖分成四份：2＋2＋2＋2。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "pumpkin-shadow",
+      "prompt": "南瓜燈前有一個紙蝙蝠。想讓牆上的影子變大，紙蝙蝠應該往哪裡移？",
+      "options": [
+        {
+          "id": "pumpkin-shadow.near-light",
+          "text": "靠近燈光"
+        },
+        {
+          "id": "pumpkin-shadow.near-wall",
+          "text": "靠近牆壁",
+          "wrongReason": "紙蝙蝠靠近牆壁時，影子會接近紙蝙蝠本身的大小，不會因而放大。"
+        },
+        {
+          "id": "pumpkin-shadow.pocket",
+          "text": "收進口袋",
+          "wrongReason": "收進口袋後，紙蝙蝠不在燈光照向牆面的路徑上，無法形成題目要的影子。"
+        },
+        {
+          "id": "pumpkin-shadow.behind-light",
+          "text": "移到燈後面",
+          "wrongReason": "移到燈後面就擋不到燈光照向前方牆面的路徑，不能讓那面牆上的影子變大。"
+        }
+      ],
+      "answer": {
+        "id": "pumpkin-shadow.answer",
+        "optionId": "pumpkin-shadow.near-light"
+      },
+      "hint": {
+        "id": "pumpkin-shadow.hint",
+        "text": "想想物體靠近光源時，會擋住多大範圍的光。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "party-route",
+      "prompt": "變裝遊行到了岔路，哪個選擇能讓大家比較安全地走完？",
+      "options": [
+        {
+          "id": "party-route.cover-eyes",
+          "text": "拉低帽子遮住眼睛",
+          "wrongReason": "帽子遮住眼睛會看不清路面與障礙物，增加跌倒或碰撞的風險。"
+        },
+        {
+          "id": "party-route.road",
+          "text": "追著糖果跑到車道",
+          "wrongReason": "跑到車道會接近行駛中的車輛，追糖果不能取代行走安全。"
+        },
+        {
+          "id": "party-route.sidewalk",
+          "text": "走明亮的人行道"
+        },
+        {
+          "id": "party-route.close-eyes",
+          "text": "閉著眼睛找路",
+          "wrongReason": "閉著眼睛無法確認路況，也看不到其他行人。"
+        }
+      ],
+      "answer": {
+        "id": "party-route.answer",
+        "optionId": "party-route.sidewalk"
+      },
+      "hint": {
+        "id": "party-route.hint",
+        "text": "選擇看得清楚、又與車輛分開的地方。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "candy-share",
+      "prompt": "糖果籃有十二顆糖，平均分給三位派對來賓，每位拿幾顆？",
+      "options": [
+        {
+          "id": "candy-share.two",
+          "text": "兩顆",
+          "wrongReason": "每位兩顆只分掉六顆，沒有把十二顆平均分完。"
+        },
+        {
+          "id": "candy-share.three",
+          "text": "三顆",
+          "wrongReason": "每位三顆總共分掉九顆，還剩三顆沒有平均分出去。"
+        },
+        {
+          "id": "candy-share.five",
+          "text": "五顆",
+          "wrongReason": "三位各拿五顆需要十五顆，超過籃子的十二顆。"
+        },
+        {
+          "id": "candy-share.four",
+          "text": "四顆"
+        }
+      ],
+      "answer": {
+        "id": "candy-share.answer",
+        "optionId": "candy-share.four"
+      },
+      "hint": {
+        "id": "candy-share.hint",
+        "text": "找出加三次會得到十二的數字。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "mummy-roll",
+      "prompt": "木乃伊裝扮的紙帶太長拖到地上，出發前怎麼辦？",
+      "options": [
+        {
+          "id": "mummy-roll.secure",
+          "text": "整理固定，避免絆倒"
+        },
+        {
+          "id": "mummy-roll.longer",
+          "text": "再拉長一倍",
+          "wrongReason": "紙帶更長會更容易拖地，被自己或別人踩到。"
+        },
+        {
+          "id": "mummy-roll.cover-eyes",
+          "text": "把眼睛也包住",
+          "wrongReason": "把眼睛包住會看不見道路，還沒有解決拖地紙帶的問題。"
+        },
+        {
+          "id": "mummy-roll.run",
+          "text": "邊跑邊踩紙帶",
+          "wrongReason": "邊跑邊踩容易絆倒，應該先停下來整理紙帶。"
+        }
+      ],
+      "answer": {
+        "id": "mummy-roll.answer",
+        "optionId": "mummy-roll.secure"
+      },
+      "hint": {
+        "id": "mummy-roll.hint",
+        "text": "先處理容易讓自己或別人踩到的部分。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "lantern-order",
+      "prompt": "南瓜燈依序閃：亮、亮、暗、亮、亮、暗。接下來是哪一組？",
+      "options": [
+        {
+          "id": "lantern-order.ddl",
+          "text": "暗、暗、亮",
+          "wrongReason": "原本每組先亮兩次才暗一次，這組卻先暗兩次，順序不同。"
+        },
+        {
+          "id": "lantern-order.lld",
+          "text": "亮、亮、暗"
+        },
+        {
+          "id": "lantern-order.ldd",
+          "text": "亮、暗、暗",
+          "wrongReason": "這組只有一次亮、兩次暗，和原本的兩亮一暗不同。"
+        },
+        {
+          "id": "lantern-order.dld",
+          "text": "暗、亮、暗",
+          "wrongReason": "原本每組從亮開始，這組從暗開始，無法接續原有排列。"
+        }
+      ],
+      "answer": {
+        "id": "lantern-order.answer",
+        "optionId": "lantern-order.lld"
+      },
+      "hint": {
+        "id": "lantern-order.hint",
+        "text": "每三次是一組，整組重複。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "door-code",
+      "prompt": "派對門牌寫著：南瓜＝2，蝙蝠＝3。兩個南瓜加一隻蝙蝠，密碼是多少？",
+      "options": [
+        {
+          "id": "door-code.five",
+          "text": "5",
+          "wrongReason": "五只計算了一個南瓜加一隻蝙蝠，漏掉題目的另一個南瓜。"
+        },
+        {
+          "id": "door-code.six",
+          "text": "6",
+          "wrongReason": "兩個南瓜合計四，再加上代表三的蝙蝠，合計不會是六。"
+        },
+        {
+          "id": "door-code.seven",
+          "text": "7"
+        },
+        {
+          "id": "door-code.eight",
+          "text": "8",
+          "wrongReason": "兩個南瓜合計四，蝙蝠代表三，不是四，因此合計不是八。"
+        }
+      ],
+      "answer": {
+        "id": "door-code.answer",
+        "optionId": "door-code.seven"
+      },
+      "hint": {
+        "id": "door-code.hint",
+        "text": "把門牌上的數字代進去：2＋2＋3。"
+      },
+      "category": "原版萬聖節精選"
+    },
+    {
+      "id": "candy-total",
+      "category": "糖果算術",
+      "prompt": "南瓜碗裡有7顆糖，幽靈盤再送來5顆，一共有幾顆？",
+      "options": [
+        {
+          "id": "candy-total.choice-1",
+          "text": "10顆",
+          "wrongReason": "「10顆」不符合題目。7＋5＝12，兩邊的糖都要計入。"
+        },
+        {
+          "id": "candy-total.choice-2",
+          "text": "11顆",
+          "wrongReason": "「11顆」不符合題目。7＋5＝12，兩邊的糖都要計入。"
+        },
+        {
+          "id": "candy-total.choice-3",
+          "text": "12顆"
+        },
+        {
+          "id": "candy-total.choice-4",
+          "text": "13顆",
+          "wrongReason": "「13顆」不符合題目。7＋5＝12，兩邊的糖都要計入。"
+        }
+      ],
+      "answer": {
+        "id": "candy-total.answer",
+        "optionId": "candy-total.choice-3"
+      },
+      "hint": {
+        "id": "candy-total.hint",
+        "text": "把兩個容器的糖果加起來。"
+      }
+    },
+    {
+      "id": "candy-left",
+      "category": "糖果算術",
+      "prompt": "派對準備15顆糖，送出去6顆，籃裡還有幾顆？",
+      "options": [
+        {
+          "id": "candy-left.choice-1",
+          "text": "6顆",
+          "wrongReason": "「6顆」不符合題目。15－6＝9；不是相加，也不是剩下送出的數量。"
+        },
+        {
+          "id": "candy-left.choice-2",
+          "text": "8顆",
+          "wrongReason": "「8顆」不符合題目。15－6＝9；不是相加，也不是剩下送出的數量。"
+        },
+        {
+          "id": "candy-left.choice-3",
+          "text": "9顆"
+        },
+        {
+          "id": "candy-left.choice-4",
+          "text": "21顆",
+          "wrongReason": "「21顆」不符合題目。15－6＝9；不是相加，也不是剩下送出的數量。"
+        }
+      ],
+      "answer": {
+        "id": "candy-left.answer",
+        "optionId": "candy-left.choice-3"
+      },
+      "hint": {
+        "id": "candy-left.hint",
+        "text": "送出去的數量要從原有數量扣掉。"
+      }
+    },
+    {
+      "id": "candy-pairs",
+      "category": "糖果算術",
+      "prompt": "6個南瓜小袋各裝3顆糖，共用了幾顆？",
+      "options": [
+        {
+          "id": "candy-pairs.choice-1",
+          "text": "9顆",
+          "wrongReason": "「9顆」不符合題目。6×3＝18，把每一袋都算進去才是總數。"
+        },
+        {
+          "id": "candy-pairs.choice-2",
+          "text": "12顆",
+          "wrongReason": "「12顆」不符合題目。6×3＝18，把每一袋都算進去才是總數。"
+        },
+        {
+          "id": "candy-pairs.choice-3",
+          "text": "15顆",
+          "wrongReason": "「15顆」不符合題目。6×3＝18，把每一袋都算進去才是總數。"
+        },
+        {
+          "id": "candy-pairs.choice-4",
+          "text": "18顆"
+        }
+      ],
+      "answer": {
+        "id": "candy-pairs.answer",
+        "optionId": "candy-pairs.choice-4"
+      },
+      "hint": {
+        "id": "candy-pairs.hint",
+        "text": "每袋3顆，一共有6袋。"
+      }
+    },
+    {
+      "id": "candy-divide",
+      "category": "糖果算術",
+      "prompt": "20顆糖平均裝進5個派對小袋，每袋有幾顆？",
+      "options": [
+        {
+          "id": "candy-divide.choice-1",
+          "text": "3顆",
+          "wrongReason": "「3顆」不符合題目。20÷5＝4；每袋4顆才能剛好用完且一樣多。"
+        },
+        {
+          "id": "candy-divide.choice-2",
+          "text": "4顆"
+        },
+        {
+          "id": "candy-divide.choice-3",
+          "text": "5顆",
+          "wrongReason": "「5顆」不符合題目。20÷5＝4；每袋4顆才能剛好用完且一樣多。"
+        },
+        {
+          "id": "candy-divide.choice-4",
+          "text": "6顆",
+          "wrongReason": "「6顆」不符合題目。20÷5＝4；每袋4顆才能剛好用完且一樣多。"
+        }
+      ],
+      "answer": {
+        "id": "candy-divide.answer",
+        "optionId": "candy-divide.choice-2"
+      },
+      "hint": {
+        "id": "candy-divide.hint",
+        "text": "把20分成5份。"
+      }
+    },
+    {
+      "id": "candy-change",
+      "category": "糖果算術",
+      "prompt": "一顆星星糖要3枚遊戲代幣，買4顆要付幾枚？",
+      "options": [
+        {
+          "id": "candy-change.choice-1",
+          "text": "7枚",
+          "wrongReason": "「7枚」不符合題目。3×4＝12；3＋4不是四顆糖的總價。"
+        },
+        {
+          "id": "candy-change.choice-2",
+          "text": "9枚",
+          "wrongReason": "「9枚」不符合題目。3×4＝12；3＋4不是四顆糖的總價。"
+        },
+        {
+          "id": "candy-change.choice-3",
+          "text": "12枚"
+        },
+        {
+          "id": "candy-change.choice-4",
+          "text": "15枚",
+          "wrongReason": "「15枚」不符合題目。3×4＝12；3＋4不是四顆糖的總價。"
+        }
+      ],
+      "answer": {
+        "id": "candy-change.answer",
+        "optionId": "candy-change.choice-3"
+      },
+      "hint": {
+        "id": "candy-change.hint",
+        "text": "每顆的價格要付4次。"
+      }
+    },
+    {
+      "id": "candy-compare",
+      "category": "糖果算術",
+      "prompt": "四個南瓜罐分別貼上數量，哪罐的糖最多？",
+      "options": [
+        {
+          "id": "candy-compare.choice-1",
+          "text": "14顆",
+          "wrongReason": "「14顆」不符合題目。17大於14、12和9，所以17顆那罐最多。"
+        },
+        {
+          "id": "candy-compare.choice-2",
+          "text": "9顆",
+          "wrongReason": "「9顆」不符合題目。17大於14、12和9，所以17顆那罐最多。"
+        },
+        {
+          "id": "candy-compare.choice-3",
+          "text": "17顆"
+        },
+        {
+          "id": "candy-compare.choice-4",
+          "text": "12顆",
+          "wrongReason": "「12顆」不符合題目。17大於14、12和9，所以17顆那罐最多。"
+        }
+      ],
+      "answer": {
+        "id": "candy-compare.answer",
+        "optionId": "candy-compare.choice-3"
+      },
+      "hint": {
+        "id": "candy-compare.hint",
+        "text": "先比較十位數，再比較個位數。"
+      }
+    },
+    {
+      "id": "candy-remainder",
+      "category": "糖果算術",
+      "prompt": "17顆糖每4顆裝一袋，盡量裝滿後會剩幾顆？",
+      "options": [
+        {
+          "id": "candy-remainder.choice-1",
+          "text": "1顆"
+        },
+        {
+          "id": "candy-remainder.choice-2",
+          "text": "2顆",
+          "wrongReason": "「2顆」不符合題目。4×4＝16，17－16＝1；剩4顆還能再裝一袋。"
+        },
+        {
+          "id": "candy-remainder.choice-3",
+          "text": "3顆",
+          "wrongReason": "「3顆」不符合題目。4×4＝16，17－16＝1；剩4顆還能再裝一袋。"
+        },
+        {
+          "id": "candy-remainder.choice-4",
+          "text": "4顆",
+          "wrongReason": "「4顆」不符合題目。4×4＝16，17－16＝1；剩4顆還能再裝一袋。"
+        }
+      ],
+      "answer": {
+        "id": "candy-remainder.answer",
+        "optionId": "candy-remainder.choice-1"
+      },
+      "hint": {
+        "id": "candy-remainder.hint",
+        "text": "先算4袋一共需要多少顆。"
+      }
+    },
+    {
+      "id": "candy-double",
+      "category": "糖果算術",
+      "prompt": "南瓜糖有8顆，蝙蝠糖的數量是它的兩倍。蝙蝠糖有幾顆？",
+      "options": [
+        {
+          "id": "candy-double.choice-1",
+          "text": "10顆",
+          "wrongReason": "「10顆」不符合題目。8＋8＝16；不是只多2顆。"
+        },
+        {
+          "id": "candy-double.choice-2",
+          "text": "12顆",
+          "wrongReason": "「12顆」不符合題目。8＋8＝16；不是只多2顆。"
+        },
+        {
+          "id": "candy-double.choice-3",
+          "text": "16顆"
+        },
+        {
+          "id": "candy-double.choice-4",
+          "text": "24顆",
+          "wrongReason": "「24顆」不符合題目。8＋8＝16；不是只多2顆。"
+        }
+      ],
+      "answer": {
+        "id": "candy-double.answer",
+        "optionId": "candy-double.choice-3"
+      },
+      "hint": {
+        "id": "candy-double.hint",
+        "text": "兩倍表示兩份一樣多。"
+      }
+    },
+    {
+      "id": "candy-missing",
+      "category": "糖果算術",
+      "prompt": "點心桌需要24顆糖，目前只有19顆，還差幾顆？",
+      "options": [
+        {
+          "id": "candy-missing.choice-1",
+          "text": "4顆",
+          "wrongReason": "「4顆」不符合題目。24－19＝5；問題問還差多少，不是兩者總和。"
+        },
+        {
+          "id": "candy-missing.choice-2",
+          "text": "5顆"
+        },
+        {
+          "id": "candy-missing.choice-3",
+          "text": "6顆",
+          "wrongReason": "「6顆」不符合題目。24－19＝5；問題問還差多少，不是兩者總和。"
+        },
+        {
+          "id": "candy-missing.choice-4",
+          "text": "43顆",
+          "wrongReason": "「43顆」不符合題目。24－19＝5；問題問還差多少，不是兩者總和。"
+        }
+      ],
+      "answer": {
+        "id": "candy-missing.answer",
+        "optionId": "candy-missing.choice-2"
+      },
+      "hint": {
+        "id": "candy-missing.hint",
+        "text": "用目標數量減去目前數量。"
+      }
+    },
+    {
+      "id": "candy-rows",
+      "category": "糖果算術",
+      "prompt": "糖果排成3列，每列5顆，再在旁邊放2顆，共幾顆？",
+      "options": [
+        {
+          "id": "candy-rows.choice-1",
+          "text": "10顆",
+          "wrongReason": "「10顆」不符合題目。3×5＋2＝17；不能漏掉旁邊的2顆。"
+        },
+        {
+          "id": "candy-rows.choice-2",
+          "text": "15顆",
+          "wrongReason": "「15顆」不符合題目。3×5＋2＝17；不能漏掉旁邊的2顆。"
+        },
+        {
+          "id": "candy-rows.choice-3",
+          "text": "17顆"
+        },
+        {
+          "id": "candy-rows.choice-4",
+          "text": "21顆",
+          "wrongReason": "「21顆」不符合題目。3×5＋2＝17；不能漏掉旁邊的2顆。"
+        }
+      ],
+      "answer": {
+        "id": "candy-rows.answer",
+        "optionId": "candy-rows.choice-3"
+      },
+      "hint": {
+        "id": "candy-rows.hint",
+        "text": "先算整齊的三列，再加旁邊兩顆。"
+      }
+    },
+    {
+      "id": "pattern-orange",
+      "category": "燈光規律",
+      "prompt": "南瓜燈顏色依序是橘、紫、橘、紫、橘，下一盞是？",
+      "options": [
+        {
+          "id": "pattern-orange.choice-1",
+          "text": "橘",
+          "wrongReason": "「橘」不符合題目。橘與紫交替；橘之後應接紫。"
+        },
+        {
+          "id": "pattern-orange.choice-2",
+          "text": "紫"
+        },
+        {
+          "id": "pattern-orange.choice-3",
+          "text": "綠",
+          "wrongReason": "「綠」不符合題目。橘與紫交替；橘之後應接紫。"
+        },
+        {
+          "id": "pattern-orange.choice-4",
+          "text": "白",
+          "wrongReason": "「白」不符合題目。橘與紫交替；橘之後應接紫。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-orange.answer",
+        "optionId": "pattern-orange.choice-2"
+      },
+      "hint": {
+        "id": "pattern-orange.hint",
+        "text": "兩種顏色輪流出現。"
+      }
+    },
+    {
+      "id": "pattern-triple",
+      "category": "燈光規律",
+      "prompt": "燈號依序是紅、綠、藍、紅、綠，下一個是？",
+      "options": [
+        {
+          "id": "pattern-triple.choice-1",
+          "text": "紅",
+          "wrongReason": "「紅」不符合題目。紅、綠、藍每三個重複，綠之後應是藍。"
+        },
+        {
+          "id": "pattern-triple.choice-2",
+          "text": "綠",
+          "wrongReason": "「綠」不符合題目。紅、綠、藍每三個重複，綠之後應是藍。"
+        },
+        {
+          "id": "pattern-triple.choice-3",
+          "text": "藍"
+        },
+        {
+          "id": "pattern-triple.choice-4",
+          "text": "黃",
+          "wrongReason": "「黃」不符合題目。紅、綠、藍每三個重複，綠之後應是藍。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-triple.answer",
+        "optionId": "pattern-triple.choice-3"
+      },
+      "hint": {
+        "id": "pattern-triple.hint",
+        "text": "把三種顏色看成一組。"
+      }
+    },
+    {
+      "id": "pattern-size",
+      "category": "燈光規律",
+      "prompt": "紙南瓜大小依序是小、小、大、小、小、大，接下來是？",
+      "options": [
+        {
+          "id": "pattern-size.choice-1",
+          "text": "大",
+          "wrongReason": "「大」不符合題目。一組結束後回到第一個小南瓜。"
+        },
+        {
+          "id": "pattern-size.choice-2",
+          "text": "小"
+        },
+        {
+          "id": "pattern-size.choice-3",
+          "text": "特大",
+          "wrongReason": "「特大」不符合題目。一組結束後回到第一個小南瓜。"
+        },
+        {
+          "id": "pattern-size.choice-4",
+          "text": "沒有規律",
+          "wrongReason": "「沒有規律」不符合題目。一組結束後回到第一個小南瓜。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-size.answer",
+        "optionId": "pattern-size.choice-2"
+      },
+      "hint": {
+        "id": "pattern-size.hint",
+        "text": "每組都是兩個小、一個大。"
+      }
+    },
+    {
+      "id": "pattern-even",
+      "category": "燈光規律",
+      "prompt": "門邊燈籠標著2、4、6、8，下一個數字是？",
+      "options": [
+        {
+          "id": "pattern-even.choice-1",
+          "text": "9",
+          "wrongReason": "「9」不符合題目。每次加2，8＋2＝10。"
+        },
+        {
+          "id": "pattern-even.choice-2",
+          "text": "10"
+        },
+        {
+          "id": "pattern-even.choice-3",
+          "text": "12",
+          "wrongReason": "「12」不符合題目。每次加2，8＋2＝10。"
+        },
+        {
+          "id": "pattern-even.choice-4",
+          "text": "16",
+          "wrongReason": "「16」不符合題目。每次加2，8＋2＝10。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-even.answer",
+        "optionId": "pattern-even.choice-2"
+      },
+      "hint": {
+        "id": "pattern-even.hint",
+        "text": "每次增加的數量相同。"
+      }
+    },
+    {
+      "id": "pattern-down",
+      "category": "燈光規律",
+      "prompt": "倒數牌依序是15、12、9、6，下一張是？",
+      "options": [
+        {
+          "id": "pattern-down.choice-1",
+          "text": "0",
+          "wrongReason": "「0」不符合題目。每次減3，6－3＝3。"
+        },
+        {
+          "id": "pattern-down.choice-2",
+          "text": "2",
+          "wrongReason": "「2」不符合題目。每次減3，6－3＝3。"
+        },
+        {
+          "id": "pattern-down.choice-3",
+          "text": "3"
+        },
+        {
+          "id": "pattern-down.choice-4",
+          "text": "4",
+          "wrongReason": "「4」不符合題目。每次減3，6－3＝3。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-down.answer",
+        "optionId": "pattern-down.choice-3"
+      },
+      "hint": {
+        "id": "pattern-down.hint",
+        "text": "每次少了幾個？"
+      }
+    },
+    {
+      "id": "pattern-bell",
+      "category": "燈光規律",
+      "prompt": "派對鈴聲依序是叮、咚、咚、叮、咚、咚，下一聲是？",
+      "options": [
+        {
+          "id": "pattern-bell.choice-1",
+          "text": "叮"
+        },
+        {
+          "id": "pattern-bell.choice-2",
+          "text": "咚",
+          "wrongReason": "「咚」不符合題目。叮、咚、咚重複，因此下一組先從叮開始。"
+        },
+        {
+          "id": "pattern-bell.choice-3",
+          "text": "叮咚同時",
+          "wrongReason": "「叮咚同時」不符合題目。叮、咚、咚重複，因此下一組先從叮開始。"
+        },
+        {
+          "id": "pattern-bell.choice-4",
+          "text": "無法依規律判斷",
+          "wrongReason": "「無法依規律判斷」不符合題目。叮、咚、咚重複，因此下一組先從叮開始。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-bell.answer",
+        "optionId": "pattern-bell.choice-1"
+      },
+      "hint": {
+        "id": "pattern-bell.hint",
+        "text": "每三聲為一組。"
+      }
+    },
+    {
+      "id": "pattern-shapes",
+      "category": "燈光規律",
+      "prompt": "貼紙依序是圓、方、方、圓、方、方，第7張應該是？",
+      "options": [
+        {
+          "id": "pattern-shapes.choice-1",
+          "text": "圓"
+        },
+        {
+          "id": "pattern-shapes.choice-2",
+          "text": "方",
+          "wrongReason": "「方」不符合題目。每三張重複，第7張是第三組的第一張圓形。"
+        },
+        {
+          "id": "pattern-shapes.choice-3",
+          "text": "三角",
+          "wrongReason": "「三角」不符合題目。每三張重複，第7張是第三組的第一張圓形。"
+        },
+        {
+          "id": "pattern-shapes.choice-4",
+          "text": "星星",
+          "wrongReason": "「星星」不符合題目。每三張重複，第7張是第三組的第一張圓形。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-shapes.answer",
+        "optionId": "pattern-shapes.choice-1"
+      },
+      "hint": {
+        "id": "pattern-shapes.hint",
+        "text": "第1張和第4張都是同一種圖形。"
+      }
+    },
+    {
+      "id": "pattern-growth",
+      "category": "燈光規律",
+      "prompt": "糖果數量依序是1、2、4、8，照每次加倍的規則，下一個是？",
+      "options": [
+        {
+          "id": "pattern-growth.choice-1",
+          "text": "10",
+          "wrongReason": "「10」不符合題目。題目指定每次加倍，8×2＝16。"
+        },
+        {
+          "id": "pattern-growth.choice-2",
+          "text": "12",
+          "wrongReason": "「12」不符合題目。題目指定每次加倍，8×2＝16。"
+        },
+        {
+          "id": "pattern-growth.choice-3",
+          "text": "14",
+          "wrongReason": "「14」不符合題目。題目指定每次加倍，8×2＝16。"
+        },
+        {
+          "id": "pattern-growth.choice-4",
+          "text": "16"
+        }
+      ],
+      "answer": {
+        "id": "pattern-growth.answer",
+        "optionId": "pattern-growth.choice-4"
+      },
+      "hint": {
+        "id": "pattern-growth.hint",
+        "text": "把上一個數字乘以2。"
+      }
+    },
+    {
+      "id": "pattern-steps",
+      "category": "燈光規律",
+      "prompt": "節奏固定為拍手、踏步、轉圈，連續重複。第5個動作是？",
+      "options": [
+        {
+          "id": "pattern-steps.choice-1",
+          "text": "拍手",
+          "wrongReason": "「拍手」不符合題目。第4個拍手，第5個踏步；蹲下不在這組動作裡。"
+        },
+        {
+          "id": "pattern-steps.choice-2",
+          "text": "踏步"
+        },
+        {
+          "id": "pattern-steps.choice-3",
+          "text": "轉圈",
+          "wrongReason": "「轉圈」不符合題目。第4個拍手，第5個踏步；蹲下不在這組動作裡。"
+        },
+        {
+          "id": "pattern-steps.choice-4",
+          "text": "蹲下",
+          "wrongReason": "「蹲下」不符合題目。第4個拍手，第5個踏步；蹲下不在這組動作裡。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-steps.answer",
+        "optionId": "pattern-steps.choice-2"
+      },
+      "hint": {
+        "id": "pattern-steps.hint",
+        "text": "第4個動作會重新開始一組。"
+      }
+    },
+    {
+      "id": "pattern-lantern-five",
+      "category": "燈光規律",
+      "prompt": "五盞燈按「亮、暗」交替排列，第一盞亮，第五盞應該？",
+      "options": [
+        {
+          "id": "pattern-lantern-five.choice-1",
+          "text": "亮"
+        },
+        {
+          "id": "pattern-lantern-five.choice-2",
+          "text": "暗",
+          "wrongReason": "「暗」不符合題目。第1、3、5盞都是亮，偶數位置才是暗。"
+        },
+        {
+          "id": "pattern-lantern-five.choice-3",
+          "text": "一半亮",
+          "wrongReason": "「一半亮」不符合題目。第1、3、5盞都是亮，偶數位置才是暗。"
+        },
+        {
+          "id": "pattern-lantern-five.choice-4",
+          "text": "全部熄滅",
+          "wrongReason": "「全部熄滅」不符合題目。第1、3、5盞都是亮，偶數位置才是暗。"
+        }
+      ],
+      "answer": {
+        "id": "pattern-lantern-five.answer",
+        "optionId": "pattern-lantern-five.choice-1"
+      },
+      "hint": {
+        "id": "pattern-lantern-five.hint",
+        "text": "奇數位置會有相同狀態。"
+      }
+    },
+    {
+      "id": "clue-box",
+      "category": "線索推理",
+      "prompt": "四個糖果盒只有一個是紫色又有星星。哪個符合？",
+      "options": [
+        {
+          "id": "clue-box.choice-1",
+          "text": "紫色圓點盒",
+          "wrongReason": "「紫色圓點盒」不符合題目。只有紫色星星盒同時滿足顏色與圖案，少一個條件都不行。"
+        },
+        {
+          "id": "clue-box.choice-2",
+          "text": "橘色星星盒",
+          "wrongReason": "「橘色星星盒」不符合題目。只有紫色星星盒同時滿足顏色與圖案，少一個條件都不行。"
+        },
+        {
+          "id": "clue-box.choice-3",
+          "text": "紫色星星盒"
+        },
+        {
+          "id": "clue-box.choice-4",
+          "text": "綠色條紋盒",
+          "wrongReason": "「綠色條紋盒」不符合題目。只有紫色星星盒同時滿足顏色與圖案，少一個條件都不行。"
+        }
+      ],
+      "answer": {
+        "id": "clue-box.answer",
+        "optionId": "clue-box.choice-3"
+      },
+      "hint": {
+        "id": "clue-box.hint",
+        "text": "兩個條件都要同時成立。"
+      }
+    },
+    {
+      "id": "clue-order",
+      "category": "線索推理",
+      "prompt": "南瓜燈在幽靈燈左邊，蝙蝠燈在幽靈燈右邊。由左到右是？",
+      "options": [
+        {
+          "id": "clue-order.choice-1",
+          "text": "幽靈、南瓜、蝙蝠",
+          "wrongReason": "「幽靈、南瓜、蝙蝠」不符合題目。南瓜在幽靈左側，蝙蝠在右側，所以幽靈必須居中。"
+        },
+        {
+          "id": "clue-order.choice-2",
+          "text": "蝙蝠、幽靈、南瓜",
+          "wrongReason": "「蝙蝠、幽靈、南瓜」不符合題目。南瓜在幽靈左側，蝙蝠在右側，所以幽靈必須居中。"
+        },
+        {
+          "id": "clue-order.choice-3",
+          "text": "南瓜、蝙蝠、幽靈",
+          "wrongReason": "「南瓜、蝙蝠、幽靈」不符合題目。南瓜在幽靈左側，蝙蝠在右側，所以幽靈必須居中。"
+        },
+        {
+          "id": "clue-order.choice-4",
+          "text": "南瓜、幽靈、蝙蝠"
+        }
+      ],
+      "answer": {
+        "id": "clue-order.answer",
+        "optionId": "clue-order.choice-4"
+      },
+      "hint": {
+        "id": "clue-order.hint",
+        "text": "先把幽靈放中間。"
+      }
+    },
+    {
+      "id": "clue-not-color",
+      "category": "線索推理",
+      "prompt": "謎題卡說：不是紅盒，也不是藍盒，而且不是圓盒。應該選？",
+      "options": [
+        {
+          "id": "clue-not-color.choice-1",
+          "text": "紅色方盒",
+          "wrongReason": "「紅色方盒」不符合題目。前三個分別違反不是紅、不是藍、不是圓，只有綠色方盒通過。"
+        },
+        {
+          "id": "clue-not-color.choice-2",
+          "text": "藍色方盒",
+          "wrongReason": "「藍色方盒」不符合題目。前三個分別違反不是紅、不是藍、不是圓，只有綠色方盒通過。"
+        },
+        {
+          "id": "clue-not-color.choice-3",
+          "text": "綠色圓盒",
+          "wrongReason": "「綠色圓盒」不符合題目。前三個分別違反不是紅、不是藍、不是圓，只有綠色方盒通過。"
+        },
+        {
+          "id": "clue-not-color.choice-4",
+          "text": "綠色方盒"
+        }
+      ],
+      "answer": {
+        "id": "clue-not-color.answer",
+        "optionId": "clue-not-color.choice-4"
+      },
+      "hint": {
+        "id": "clue-not-color.hint",
+        "text": "逐一排除不符合的盒子。"
+      }
+    },
+    {
+      "id": "clue-ticket",
+      "category": "線索推理",
+      "prompt": "派對入場條件是「有邀請卡，而且戴手環」。哪個組合能入場？",
+      "options": [
+        {
+          "id": "clue-ticket.choice-1",
+          "text": "只有邀請卡",
+          "wrongReason": "「只有邀請卡」不符合題目。只帶其中一項不滿足兩項都具備的條件。"
+        },
+        {
+          "id": "clue-ticket.choice-2",
+          "text": "只有手環",
+          "wrongReason": "「只有手環」不符合題目。只帶其中一項不滿足兩項都具備的條件。"
+        },
+        {
+          "id": "clue-ticket.choice-3",
+          "text": "邀請卡和手環都有"
+        },
+        {
+          "id": "clue-ticket.choice-4",
+          "text": "兩者都沒有",
+          "wrongReason": "「兩者都沒有」不符合題目。只帶其中一項不滿足兩項都具備的條件。"
+        }
+      ],
+      "answer": {
+        "id": "clue-ticket.answer",
+        "optionId": "clue-ticket.choice-3"
+      },
+      "hint": {
+        "id": "clue-ticket.hint",
+        "text": "「而且」表示兩個條件缺一不可。"
+      }
+    },
+    {
+      "id": "clue-middle",
+      "category": "線索推理",
+      "prompt": "三個南瓜排一列：小的在大的左邊，中的在大的右邊。哪個在中間？",
+      "options": [
+        {
+          "id": "clue-middle.choice-1",
+          "text": "小南瓜",
+          "wrongReason": "「小南瓜」不符合題目。順序是小、大、中，所以大南瓜位在中間。"
+        },
+        {
+          "id": "clue-middle.choice-2",
+          "text": "大南瓜"
+        },
+        {
+          "id": "clue-middle.choice-3",
+          "text": "中南瓜",
+          "wrongReason": "「中南瓜」不符合題目。順序是小、大、中，所以大南瓜位在中間。"
+        },
+        {
+          "id": "clue-middle.choice-4",
+          "text": "三個都在中間",
+          "wrongReason": "「三個都在中間」不符合題目。順序是小、大、中，所以大南瓜位在中間。"
+        }
+      ],
+      "answer": {
+        "id": "clue-middle.answer",
+        "optionId": "clue-middle.choice-2"
+      },
+      "hint": {
+        "id": "clue-middle.hint",
+        "text": "依照左右關係排好三個位置。"
+      }
+    },
+    {
+      "id": "clue-map",
+      "category": "線索推理",
+      "prompt": "尋寶指示先說「去點心桌」，再說「從那裡去南瓜燈」。第一站是？",
+      "options": [
+        {
+          "id": "clue-map.choice-1",
+          "text": "南瓜燈",
+          "wrongReason": "「南瓜燈」不符合題目。題目明確先到點心桌，不能直接跳到第二站。"
+        },
+        {
+          "id": "clue-map.choice-2",
+          "text": "出口",
+          "wrongReason": "「出口」不符合題目。題目明確先到點心桌，不能直接跳到第二站。"
+        },
+        {
+          "id": "clue-map.choice-3",
+          "text": "點心桌"
+        },
+        {
+          "id": "clue-map.choice-4",
+          "text": "任意地點",
+          "wrongReason": "「任意地點」不符合題目。題目明確先到點心桌，不能直接跳到第二站。"
+        }
+      ],
+      "answer": {
+        "id": "clue-map.answer",
+        "optionId": "clue-map.choice-3"
+      },
+      "hint": {
+        "id": "clue-map.hint",
+        "text": "依照指示的先後順序。"
+      }
+    },
+    {
+      "id": "clue-two-rules",
+      "category": "線索推理",
+      "prompt": "要找「數量是偶數，而且大於5」的糖果袋，應選哪袋？",
+      "options": [
+        {
+          "id": "clue-two-rules.choice-1",
+          "text": "4顆",
+          "wrongReason": "「4顆」不符合題目。4不大於5，5和7不是偶數；8同時符合兩個條件。"
+        },
+        {
+          "id": "clue-two-rules.choice-2",
+          "text": "5顆",
+          "wrongReason": "「5顆」不符合題目。4不大於5，5和7不是偶數；8同時符合兩個條件。"
+        },
+        {
+          "id": "clue-two-rules.choice-3",
+          "text": "7顆",
+          "wrongReason": "「7顆」不符合題目。4不大於5，5和7不是偶數；8同時符合兩個條件。"
+        },
+        {
+          "id": "clue-two-rules.choice-4",
+          "text": "8顆"
+        }
+      ],
+      "answer": {
+        "id": "clue-two-rules.answer",
+        "optionId": "clue-two-rules.choice-4"
+      },
+      "hint": {
+        "id": "clue-two-rules.hint",
+        "text": "偶數可兩兩配對，還要比5多。"
+      }
+    },
+    {
+      "id": "clue-label",
+      "category": "線索推理",
+      "prompt": "每個禮物袋都要貼一張標籤。桌上有6袋，只貼好4袋，還有幾袋沒貼？",
+      "options": [
+        {
+          "id": "clue-label.choice-1",
+          "text": "1袋",
+          "wrongReason": "「1袋」不符合題目。6－4＝2，貼好的4袋不能算成尚未完成。"
+        },
+        {
+          "id": "clue-label.choice-2",
+          "text": "2袋"
+        },
+        {
+          "id": "clue-label.choice-3",
+          "text": "4袋",
+          "wrongReason": "「4袋」不符合題目。6－4＝2，貼好的4袋不能算成尚未完成。"
+        },
+        {
+          "id": "clue-label.choice-4",
+          "text": "6袋",
+          "wrongReason": "「6袋」不符合題目。6－4＝2，貼好的4袋不能算成尚未完成。"
+        }
+      ],
+      "answer": {
+        "id": "clue-label.answer",
+        "optionId": "clue-label.choice-2"
+      },
+      "hint": {
+        "id": "clue-label.hint",
+        "text": "總袋數減掉已經完成的袋數。"
+      }
+    },
+    {
+      "id": "clue-larger",
+      "category": "線索推理",
+      "prompt": "甲燈比乙燈高，乙燈比丙燈高。哪盞最高？",
+      "options": [
+        {
+          "id": "clue-larger.choice-1",
+          "text": "甲燈"
+        },
+        {
+          "id": "clue-larger.choice-2",
+          "text": "乙燈",
+          "wrongReason": "「乙燈」不符合題目。甲高於乙，乙又高於丙，因此甲最高。"
+        },
+        {
+          "id": "clue-larger.choice-3",
+          "text": "丙燈",
+          "wrongReason": "「丙燈」不符合題目。甲高於乙，乙又高於丙，因此甲最高。"
+        },
+        {
+          "id": "clue-larger.choice-4",
+          "text": "三盞一樣高",
+          "wrongReason": "「三盞一樣高」不符合題目。甲高於乙，乙又高於丙，因此甲最高。"
+        }
+      ],
+      "answer": {
+        "id": "clue-larger.answer",
+        "optionId": "clue-larger.choice-1"
+      },
+      "hint": {
+        "id": "clue-larger.hint",
+        "text": "把兩個比較關係接起來。"
+      }
+    },
+    {
+      "id": "clue-exclusive",
+      "category": "線索推理",
+      "prompt": "盒子裡只可能有南瓜糖或蝙蝠糖。打開後確定不是南瓜糖，那是？",
+      "options": [
+        {
+          "id": "clue-exclusive.choice-1",
+          "text": "幽靈糖",
+          "wrongReason": "「幽靈糖」不符合題目。排除南瓜糖後，只剩蝙蝠糖這一種可能，不能加入題目沒有的第三種。"
+        },
+        {
+          "id": "clue-exclusive.choice-2",
+          "text": "蝙蝠糖"
+        },
+        {
+          "id": "clue-exclusive.choice-3",
+          "text": "兩種都有",
+          "wrongReason": "「兩種都有」不符合題目。排除南瓜糖後，只剩蝙蝠糖這一種可能，不能加入題目沒有的第三種。"
+        },
+        {
+          "id": "clue-exclusive.choice-4",
+          "text": "無法判斷",
+          "wrongReason": "「無法判斷」不符合題目。排除南瓜糖後，只剩蝙蝠糖這一種可能，不能加入題目沒有的第三種。"
+        }
+      ],
+      "answer": {
+        "id": "clue-exclusive.answer",
+        "optionId": "clue-exclusive.choice-2"
+      },
+      "hint": {
+        "id": "clue-exclusive.hint",
+        "text": "題目已限定只有兩種可能。"
+      }
+    },
+    {
+      "id": "shape-triangle",
+      "category": "形狀空間",
+      "prompt": "南瓜帽上的三角形貼紙有幾個角？",
+      "options": [
+        {
+          "id": "shape-triangle.choice-1",
+          "text": "2個",
+          "wrongReason": "「2個」不符合題目。三角形有三個角，不是四角或五角圖形。"
+        },
+        {
+          "id": "shape-triangle.choice-2",
+          "text": "3個"
+        },
+        {
+          "id": "shape-triangle.choice-3",
+          "text": "4個",
+          "wrongReason": "「4個」不符合題目。三角形有三個角，不是四角或五角圖形。"
+        },
+        {
+          "id": "shape-triangle.choice-4",
+          "text": "5個",
+          "wrongReason": "「5個」不符合題目。三角形有三個角，不是四角或五角圖形。"
+        }
+      ],
+      "answer": {
+        "id": "shape-triangle.answer",
+        "optionId": "shape-triangle.choice-2"
+      },
+      "hint": {
+        "id": "shape-triangle.hint",
+        "text": "名稱裡就藏著角的數量。"
+      }
+    },
+    {
+      "id": "shape-square",
+      "category": "形狀空間",
+      "prompt": "哪種貼紙有四條一樣長的邊，而且四個角都是直角？",
+      "options": [
+        {
+          "id": "shape-square.choice-1",
+          "text": "圓形",
+          "wrongReason": "「圓形」不符合題目。正方形符合四條等長邊與四個直角，其他選項不符合。"
+        },
+        {
+          "id": "shape-square.choice-2",
+          "text": "三角形",
+          "wrongReason": "「三角形」不符合題目。正方形符合四條等長邊與四個直角，其他選項不符合。"
+        },
+        {
+          "id": "shape-square.choice-3",
+          "text": "正方形"
+        },
+        {
+          "id": "shape-square.choice-4",
+          "text": "橢圓形",
+          "wrongReason": "「橢圓形」不符合題目。正方形符合四條等長邊與四個直角，其他選項不符合。"
+        }
+      ],
+      "answer": {
+        "id": "shape-square.answer",
+        "optionId": "shape-square.choice-3"
+      },
+      "hint": {
+        "id": "shape-square.hint",
+        "text": "邊數、邊長與角都要符合。"
+      }
+    },
+    {
+      "id": "shape-circle",
+      "category": "形狀空間",
+      "prompt": "想做一個沒有角的圓月裝飾，哪種外框最合適？",
+      "options": [
+        {
+          "id": "shape-circle.choice-1",
+          "text": "三角形",
+          "wrongReason": "「三角形」不符合題目。圓形沒有角；其餘選項都有明確的角。"
+        },
+        {
+          "id": "shape-circle.choice-2",
+          "text": "正方形",
+          "wrongReason": "「正方形」不符合題目。圓形沒有角；其餘選項都有明確的角。"
+        },
+        {
+          "id": "shape-circle.choice-3",
+          "text": "五角星",
+          "wrongReason": "「五角星」不符合題目。圓形沒有角；其餘選項都有明確的角。"
+        },
+        {
+          "id": "shape-circle.choice-4",
+          "text": "圓形"
+        }
+      ],
+      "answer": {
+        "id": "shape-circle.answer",
+        "optionId": "shape-circle.choice-4"
+      },
+      "hint": {
+        "id": "shape-circle.hint",
+        "text": "找沒有尖角、外緣圓滑的形狀。"
+      }
+    },
+    {
+      "id": "shape-cube",
+      "category": "形狀空間",
+      "prompt": "一個骰子形狀的方盒共有幾個面？",
+      "options": [
+        {
+          "id": "shape-cube.choice-1",
+          "text": "4面",
+          "wrongReason": "「4面」不符合題目。骰子形狀的立方體有六個面，八是頂點的數量。"
+        },
+        {
+          "id": "shape-cube.choice-2",
+          "text": "5面",
+          "wrongReason": "「5面」不符合題目。骰子形狀的立方體有六個面，八是頂點的數量。"
+        },
+        {
+          "id": "shape-cube.choice-3",
+          "text": "6面"
+        },
+        {
+          "id": "shape-cube.choice-4",
+          "text": "8面",
+          "wrongReason": "「8面」不符合題目。骰子形狀的立方體有六個面，八是頂點的數量。"
+        }
+      ],
+      "answer": {
+        "id": "shape-cube.answer",
+        "optionId": "shape-cube.choice-3"
+      },
+      "hint": {
+        "id": "shape-cube.hint",
+        "text": "上、下、前、後、左、右各算一面。"
+      }
+    },
+    {
+      "id": "shape-half",
+      "category": "形狀空間",
+      "prompt": "一張圓形月亮紙沿通過圓心的直線剪成兩份，兩份大小如何？",
+      "options": [
+        {
+          "id": "shape-half.choice-1",
+          "text": "一大一小",
+          "wrongReason": "「一大一小」不符合題目。通過圓心的直線把圓分成面積相等的兩半。"
+        },
+        {
+          "id": "shape-half.choice-2",
+          "text": "一樣大"
+        },
+        {
+          "id": "shape-half.choice-3",
+          "text": "其中一份沒有面積",
+          "wrongReason": "「其中一份沒有面積」不符合題目。通過圓心的直線把圓分成面積相等的兩半。"
+        },
+        {
+          "id": "shape-half.choice-4",
+          "text": "一定變三份",
+          "wrongReason": "「一定變三份」不符合題目。通過圓心的直線把圓分成面積相等的兩半。"
+        }
+      ],
+      "answer": {
+        "id": "shape-half.answer",
+        "optionId": "shape-half.choice-2"
+      },
+      "hint": {
+        "id": "shape-half.hint",
+        "text": "這條線把圓分成兩個半圓。"
+      }
+    },
+    {
+      "id": "shape-turn",
+      "category": "形狀空間",
+      "prompt": "箭頭原本向上，順時針轉四分之一圈後指向哪裡？",
+      "options": [
+        {
+          "id": "shape-turn.choice-1",
+          "text": "上",
+          "wrongReason": "「上」不符合題目。向上順時針轉90度會朝右，不是朝左。"
+        },
+        {
+          "id": "shape-turn.choice-2",
+          "text": "下",
+          "wrongReason": "「下」不符合題目。向上順時針轉90度會朝右，不是朝左。"
+        },
+        {
+          "id": "shape-turn.choice-3",
+          "text": "左",
+          "wrongReason": "「左」不符合題目。向上順時針轉90度會朝右，不是朝左。"
+        },
+        {
+          "id": "shape-turn.choice-4",
+          "text": "右"
+        }
+      ],
+      "answer": {
+        "id": "shape-turn.answer",
+        "optionId": "shape-turn.choice-4"
+      },
+      "hint": {
+        "id": "shape-turn.hint",
+        "text": "順時針是時鐘指針前進的方向。"
+      }
+    },
+    {
+      "id": "shape-opposite",
+      "category": "形狀空間",
+      "prompt": "迷宮指示箭頭向左，與它相反的方向是？",
+      "options": [
+        {
+          "id": "shape-opposite.choice-1",
+          "text": "上",
+          "wrongReason": "「上」不符合題目。左與右互為相反方向，上下是另一組方向。"
+        },
+        {
+          "id": "shape-opposite.choice-2",
+          "text": "下",
+          "wrongReason": "「下」不符合題目。左與右互為相反方向，上下是另一組方向。"
+        },
+        {
+          "id": "shape-opposite.choice-3",
+          "text": "右"
+        },
+        {
+          "id": "shape-opposite.choice-4",
+          "text": "仍然向左",
+          "wrongReason": "「仍然向左」不符合題目。左與右互為相反方向，上下是另一組方向。"
+        }
+      ],
+      "answer": {
+        "id": "shape-opposite.answer",
+        "optionId": "shape-opposite.choice-3"
+      },
+      "hint": {
+        "id": "shape-opposite.hint",
+        "text": "找同一直線的另一端。"
+      }
+    },
+    {
+      "id": "shape-rectangle",
+      "category": "形狀空間",
+      "prompt": "一張長方形桌布長6格、寬2格，面積是多少格？",
+      "options": [
+        {
+          "id": "shape-rectangle.choice-1",
+          "text": "4格",
+          "wrongReason": "「4格」不符合題目。6×2＝12；把邊長相加不是面積。"
+        },
+        {
+          "id": "shape-rectangle.choice-2",
+          "text": "8格",
+          "wrongReason": "「8格」不符合題目。6×2＝12；把邊長相加不是面積。"
+        },
+        {
+          "id": "shape-rectangle.choice-3",
+          "text": "12格"
+        },
+        {
+          "id": "shape-rectangle.choice-4",
+          "text": "16格",
+          "wrongReason": "「16格」不符合題目。6×2＝12；把邊長相加不是面積。"
+        }
+      ],
+      "answer": {
+        "id": "shape-rectangle.answer",
+        "optionId": "shape-rectangle.choice-3"
+      },
+      "hint": {
+        "id": "shape-rectangle.hint",
+        "text": "面積要把每列的格數乘上列數。"
+      }
+    },
+    {
+      "id": "shape-perimeter",
+      "category": "形狀空間",
+      "prompt": "正方形南瓜牌每邊長3格，繞外框一圈共幾格？",
+      "options": [
+        {
+          "id": "shape-perimeter.choice-1",
+          "text": "3格",
+          "wrongReason": "「3格」不符合題目。3×4＝12；只算一邊或面積都不是周長。"
+        },
+        {
+          "id": "shape-perimeter.choice-2",
+          "text": "6格",
+          "wrongReason": "「6格」不符合題目。3×4＝12；只算一邊或面積都不是周長。"
+        },
+        {
+          "id": "shape-perimeter.choice-3",
+          "text": "9格",
+          "wrongReason": "「9格」不符合題目。3×4＝12；只算一邊或面積都不是周長。"
+        },
+        {
+          "id": "shape-perimeter.choice-4",
+          "text": "12格"
+        }
+      ],
+      "answer": {
+        "id": "shape-perimeter.answer",
+        "optionId": "shape-perimeter.choice-4"
+      },
+      "hint": {
+        "id": "shape-perimeter.hint",
+        "text": "四條邊都要走過。"
+      }
+    },
+    {
+      "id": "shape-mirror",
+      "category": "形狀空間",
+      "prompt": "一張紙左邊畫一顆星，沿中線對折壓印。右邊會出現什麼對應圖案？",
+      "options": [
+        {
+          "id": "shape-mirror.choice-1",
+          "text": "一顆星"
+        },
+        {
+          "id": "shape-mirror.choice-2",
+          "text": "兩個圓",
+          "wrongReason": "「兩個圓」不符合題目。對折壓印對應的是原本那一顆星，不會變成其他圖案或數量。"
+        },
+        {
+          "id": "shape-mirror.choice-3",
+          "text": "三條線",
+          "wrongReason": "「三條線」不符合題目。對折壓印對應的是原本那一顆星，不會變成其他圖案或數量。"
+        },
+        {
+          "id": "shape-mirror.choice-4",
+          "text": "四個方形",
+          "wrongReason": "「四個方形」不符合題目。對折壓印對應的是原本那一顆星，不會變成其他圖案或數量。"
+        }
+      ],
+      "answer": {
+        "id": "shape-mirror.answer",
+        "optionId": "shape-mirror.choice-1"
+      },
+      "hint": {
+        "id": "shape-mirror.hint",
+        "text": "壓印會留下原圖案的鏡像。"
+      }
+    },
+    {
+      "id": "party-spill",
+      "category": "派對安全",
+      "prompt": "果汁灑在走道上，應先怎麼做？",
+      "options": [
+        {
+          "id": "party-spill.choice-1",
+          "text": "跑過去滑一下",
+          "wrongReason": "「跑過去滑一下」不符合題目。先提醒並清理才能處理濕滑問題；奔跑、遮掩或忽略都留下風險。"
+        },
+        {
+          "id": "party-spill.choice-2",
+          "text": "提醒大家避開並請人清理"
+        },
+        {
+          "id": "party-spill.choice-3",
+          "text": "拿地毯偷偷蓋住",
+          "wrongReason": "「拿地毯偷偷蓋住」不符合題目。先提醒並清理才能處理濕滑問題；奔跑、遮掩或忽略都留下風險。"
+        },
+        {
+          "id": "party-spill.choice-4",
+          "text": "當作沒看到",
+          "wrongReason": "「當作沒看到」不符合題目。先提醒並清理才能處理濕滑問題；奔跑、遮掩或忽略都留下風險。"
+        }
+      ],
+      "answer": {
+        "id": "party-spill.answer",
+        "optionId": "party-spill.choice-2"
+      },
+      "hint": {
+        "id": "party-spill.hint",
+        "text": "先避免其他人踩到滑倒。"
+      }
+    },
+    {
+      "id": "party-mask",
+      "category": "派對安全",
+      "prompt": "面具遮住視線，遊行前應該？",
+      "options": [
+        {
+          "id": "party-mask.choice-1",
+          "text": "調整到能清楚看路"
+        },
+        {
+          "id": "party-mask.choice-2",
+          "text": "把眼洞再蓋住",
+          "wrongReason": "「把眼洞再蓋住」不符合題目。先調整面具恢復視線，其他做法都沒有解決看不見的問題。"
+        },
+        {
+          "id": "party-mask.choice-3",
+          "text": "閉眼跟著走",
+          "wrongReason": "「閉眼跟著走」不符合題目。先調整面具恢復視線，其他做法都沒有解決看不見的問題。"
+        },
+        {
+          "id": "party-mask.choice-4",
+          "text": "加快腳步",
+          "wrongReason": "「加快腳步」不符合題目。先調整面具恢復視線，其他做法都沒有解決看不見的問題。"
+        }
+      ],
+      "answer": {
+        "id": "party-mask.answer",
+        "optionId": "party-mask.choice-1"
+      },
+      "hint": {
+        "id": "party-mask.hint",
+        "text": "裝扮不能妨礙看清楚道路。"
+      }
+    },
+    {
+      "id": "party-cable",
+      "category": "派對安全",
+      "prompt": "音響電線橫跨走道，哪個安排比較合適？",
+      "options": [
+        {
+          "id": "party-cable.choice-1",
+          "text": "讓大家跳過去",
+          "wrongReason": "「讓大家跳過去」不符合題目。沿邊整理固定能減少絆倒機會，跳過、拉高或關燈都不會讓走道安全。"
+        },
+        {
+          "id": "party-cable.choice-2",
+          "text": "把它拉得更高",
+          "wrongReason": "「把它拉得更高」不符合題目。沿邊整理固定能減少絆倒機會，跳過、拉高或關燈都不會讓走道安全。"
+        },
+        {
+          "id": "party-cable.choice-3",
+          "text": "請負責人沿邊整理固定"
+        },
+        {
+          "id": "party-cable.choice-4",
+          "text": "關燈就看不到了",
+          "wrongReason": "「關燈就看不到了」不符合題目。沿邊整理固定能減少絆倒機會，跳過、拉高或關燈都不會讓走道安全。"
+        }
+      ],
+      "answer": {
+        "id": "party-cable.answer",
+        "optionId": "party-cable.choice-3"
+      },
+      "hint": {
+        "id": "party-cable.hint",
+        "text": "保持走道暢通，避免絆倒。"
+      }
+    },
+    {
+      "id": "party-group",
+      "category": "派對安全",
+      "prompt": "參加晚間變裝遊行，哪種方式比較容易互相照應？",
+      "options": [
+        {
+          "id": "party-group.choice-1",
+          "text": "各走各的捷徑",
+          "wrongReason": "「各走各的捷徑」不符合題目。一起走並保持聯繫才能互相照應，其他選項會讓人找不到彼此。"
+        },
+        {
+          "id": "party-group.choice-2",
+          "text": "和同行者保持聯繫並一起走"
+        },
+        {
+          "id": "party-group.choice-3",
+          "text": "故意躲起來",
+          "wrongReason": "「故意躲起來」不符合題目。一起走並保持聯繫才能互相照應，其他選項會讓人找不到彼此。"
+        },
+        {
+          "id": "party-group.choice-4",
+          "text": "不告訴同伴就離開",
+          "wrongReason": "「不告訴同伴就離開」不符合題目。一起走並保持聯繫才能互相照應，其他選項會讓人找不到彼此。"
+        }
+      ],
+      "answer": {
+        "id": "party-group.answer",
+        "optionId": "party-group.choice-2"
+      },
+      "hint": {
+        "id": "party-group.hint",
+        "text": "讓同行者知道彼此在哪裡。"
+      }
+    },
+    {
+      "id": "party-stairs",
+      "category": "派對安全",
+      "prompt": "長披風拖到樓梯上，該怎麼走？",
+      "options": [
+        {
+          "id": "party-stairs.choice-1",
+          "text": "踩著披風跑",
+          "wrongReason": "「踩著披風跑」不符合題目。整理披風並慢行能減少絆倒；奔跑、閉眼或跳階都增加風險。"
+        },
+        {
+          "id": "party-stairs.choice-2",
+          "text": "閉眼下樓",
+          "wrongReason": "「閉眼下樓」不符合題目。整理披風並慢行能減少絆倒；奔跑、閉眼或跳階都增加風險。"
+        },
+        {
+          "id": "party-stairs.choice-3",
+          "text": "先整理披風，再慢慢走"
+        },
+        {
+          "id": "party-stairs.choice-4",
+          "text": "一次跳好多階",
+          "wrongReason": "「一次跳好多階」不符合題目。整理披風並慢行能減少絆倒；奔跑、閉眼或跳階都增加風險。"
+        }
+      ],
+      "answer": {
+        "id": "party-stairs.answer",
+        "optionId": "party-stairs.choice-3"
+      },
+      "hint": {
+        "id": "party-stairs.hint",
+        "text": "避免踩到衣物，也要看清楚階梯。"
+      }
+    },
+    {
+      "id": "party-decoration",
+      "category": "派對安全",
+      "prompt": "想在派對走道放裝飾，哪個位置比較合適？",
+      "options": [
+        {
+          "id": "party-decoration.choice-1",
+          "text": "出口正中央",
+          "wrongReason": "「出口正中央」不符合題目。牆邊不擋路的位置較合適，出口、樓梯和必經處都需要保持暢通。"
+        },
+        {
+          "id": "party-decoration.choice-2",
+          "text": "樓梯踏面上",
+          "wrongReason": "「樓梯踏面上」不符合題目。牆邊不擋路的位置較合適，出口、樓梯和必經處都需要保持暢通。"
+        },
+        {
+          "id": "party-decoration.choice-3",
+          "text": "不擋通行的牆邊"
+        },
+        {
+          "id": "party-decoration.choice-4",
+          "text": "門口的必經位置",
+          "wrongReason": "「門口的必經位置」不符合題目。牆邊不擋路的位置較合適，出口、樓梯和必經處都需要保持暢通。"
+        }
+      ],
+      "answer": {
+        "id": "party-decoration.answer",
+        "optionId": "party-decoration.choice-3"
+      },
+      "hint": {
+        "id": "party-decoration.hint",
+        "text": "裝飾不應阻擋通行。"
+      }
+    },
+    {
+      "id": "party-stop",
+      "category": "派對安全",
+      "prompt": "隊伍前面突然停下來，後方的人應該？",
+      "options": [
+        {
+          "id": "party-stop.choice-1",
+          "text": "繼續往前推",
+          "wrongReason": "「繼續往前推」不符合題目。放慢並留空間能避免推擠，其他做法容易增加碰撞。"
+        },
+        {
+          "id": "party-stop.choice-2",
+          "text": "放慢並保持距離"
+        },
+        {
+          "id": "party-stop.choice-3",
+          "text": "衝進人群中間",
+          "wrongReason": "「衝進人群中間」不符合題目。放慢並留空間能避免推擠，其他做法容易增加碰撞。"
+        },
+        {
+          "id": "party-stop.choice-4",
+          "text": "故意尖叫催促",
+          "wrongReason": "「故意尖叫催促」不符合題目。放慢並留空間能避免推擠，其他做法容易增加碰撞。"
+        }
+      ],
+      "answer": {
+        "id": "party-stop.answer",
+        "optionId": "party-stop.choice-2"
+      },
+      "hint": {
+        "id": "party-stop.hint",
+        "text": "先避免碰撞，再配合隊伍。"
+      }
+    },
+    {
+      "id": "party-dark",
+      "category": "派對安全",
+      "prompt": "燈光較暗的房間地上散著玩具，開始活動前應先？",
+      "options": [
+        {
+          "id": "party-dark.choice-1",
+          "text": "摸黑跑一圈",
+          "wrongReason": "「摸黑跑一圈」不符合題目。收拾並照明能處理兩個問題，其他選項仍讓障礙物留在通行處。"
+        },
+        {
+          "id": "party-dark.choice-2",
+          "text": "先收好玩具並提供足夠照明"
+        },
+        {
+          "id": "party-dark.choice-3",
+          "text": "把玩具踢到門邊",
+          "wrongReason": "「把玩具踢到門邊」不符合題目。收拾並照明能處理兩個問題，其他選項仍讓障礙物留在通行處。"
+        },
+        {
+          "id": "party-dark.choice-4",
+          "text": "只提醒一次就不整理",
+          "wrongReason": "「只提醒一次就不整理」不符合題目。收拾並照明能處理兩個問題，其他選項仍讓障礙物留在通行處。"
+        }
+      ],
+      "answer": {
+        "id": "party-dark.answer",
+        "optionId": "party-dark.choice-2"
+      },
+      "hint": {
+        "id": "party-dark.hint",
+        "text": "同時處理看不清與地面障礙。"
+      }
+    },
+    {
+      "id": "party-noise",
+      "category": "派對安全",
+      "prompt": "突然的大音效讓同伴不舒服，主持人可以怎麼做？",
+      "options": [
+        {
+          "id": "party-noise.choice-1",
+          "text": "再把聲音加大",
+          "wrongReason": "「再把聲音加大」不符合題目。降低音量並事先告知較能照顧同伴，其他做法都忽略了不舒服的感受。"
+        },
+        {
+          "id": "party-noise.choice-2",
+          "text": "嘲笑同伴",
+          "wrongReason": "「嘲笑同伴」不符合題目。降低音量並事先告知較能照顧同伴，其他做法都忽略了不舒服的感受。"
+        },
+        {
+          "id": "party-noise.choice-3",
+          "text": "降低音量並先告知接下來的效果"
+        },
+        {
+          "id": "party-noise.choice-4",
+          "text": "連續播放不停",
+          "wrongReason": "「連續播放不停」不符合題目。降低音量並事先告知較能照顧同伴，其他做法都忽略了不舒服的感受。"
+        }
+      ],
+      "answer": {
+        "id": "party-noise.answer",
+        "optionId": "party-noise.choice-3"
+      },
+      "hint": {
+        "id": "party-noise.hint",
+        "text": "尊重同伴的感受，讓聲音可預期。"
+      }
+    },
+    {
+      "id": "party-turn-taking",
+      "category": "派對安全",
+      "prompt": "大家都想拿南瓜貼紙，怎麼做比較不會推擠？",
+      "options": [
+        {
+          "id": "party-turn-taking.choice-1",
+          "text": "一起搶",
+          "wrongReason": "「一起搶」不符合題目。輪流能保持秩序；搶奪、堵住或跨越別人容易造成碰撞。"
+        },
+        {
+          "id": "party-turn-taking.choice-2",
+          "text": "輪流排隊拿取"
+        },
+        {
+          "id": "party-turn-taking.choice-3",
+          "text": "把桌子堵住",
+          "wrongReason": "「把桌子堵住」不符合題目。輪流能保持秩序；搶奪、堵住或跨越別人容易造成碰撞。"
+        },
+        {
+          "id": "party-turn-taking.choice-4",
+          "text": "從別人身上跨過去",
+          "wrongReason": "「從別人身上跨過去」不符合題目。輪流能保持秩序；搶奪、堵住或跨越別人容易造成碰撞。"
+        }
+      ],
+      "answer": {
+        "id": "party-turn-taking.answer",
+        "optionId": "party-turn-taking.choice-2"
+      },
+      "hint": {
+        "id": "party-turn-taking.hint",
+        "text": "讓每個人都有順序與空間。"
+      }
+    },
+    {
+      "id": "eco-cup",
+      "category": "環保整理",
+      "prompt": "派對要喝水，哪個做法能減少一次性杯子的使用？",
+      "options": [
+        {
+          "id": "eco-cup.choice-1",
+          "text": "每口水換新杯",
+          "wrongReason": "「每口水換新杯」不符合題目。自備重複使用的杯子能減少一次性用品，其餘做法反而增加用量。"
+        },
+        {
+          "id": "eco-cup.choice-2",
+          "text": "自備可重複使用的水杯"
+        },
+        {
+          "id": "eco-cup.choice-3",
+          "text": "一次拿很多杯",
+          "wrongReason": "「一次拿很多杯」不符合題目。自備重複使用的杯子能減少一次性用品，其餘做法反而增加用量。"
+        },
+        {
+          "id": "eco-cup.choice-4",
+          "text": "喝完就換一個",
+          "wrongReason": "「喝完就換一個」不符合題目。自備重複使用的杯子能減少一次性用品，其餘做法反而增加用量。"
+        }
+      ],
+      "answer": {
+        "id": "eco-cup.answer",
+        "optionId": "eco-cup.choice-2"
+      },
+      "hint": {
+        "id": "eco-cup.hint",
+        "text": "同一個容器可以使用很多次。"
+      }
+    },
+    {
+      "id": "eco-paper",
+      "category": "環保整理",
+      "prompt": "做南瓜剪紙剩下一些乾淨紙邊，可以怎麼利用？",
+      "options": [
+        {
+          "id": "eco-paper.choice-1",
+          "text": "先留下做小裝飾"
+        },
+        {
+          "id": "eco-paper.choice-2",
+          "text": "立刻全部丟掉",
+          "wrongReason": "「立刻全部丟掉」不符合題目。乾淨紙邊還能做小裝飾，其他選項不是再利用，還可能造成髒亂。"
+        },
+        {
+          "id": "eco-paper.choice-3",
+          "text": "混進果汁",
+          "wrongReason": "「混進果汁」不符合題目。乾淨紙邊還能做小裝飾，其他選項不是再利用，還可能造成髒亂。"
+        },
+        {
+          "id": "eco-paper.choice-4",
+          "text": "故意撕得更碎才丟",
+          "wrongReason": "「故意撕得更碎才丟」不符合題目。乾淨紙邊還能做小裝飾，其他選項不是再利用，還可能造成髒亂。"
+        }
+      ],
+      "answer": {
+        "id": "eco-paper.answer",
+        "optionId": "eco-paper.choice-1"
+      },
+      "hint": {
+        "id": "eco-paper.hint",
+        "text": "先想能否再次使用。"
+      }
+    },
+    {
+      "id": "eco-lights",
+      "category": "環保整理",
+      "prompt": "派對結束、房間沒人使用後，裝飾燈應該？",
+      "options": [
+        {
+          "id": "eco-lights.choice-1",
+          "text": "一直亮到隔天",
+          "wrongReason": "「一直亮到隔天」不符合題目。關閉不用的燈才能減少耗電；遮住並不會讓燈停止用電。"
+        },
+        {
+          "id": "eco-lights.choice-2",
+          "text": "關閉不需要的燈"
+        },
+        {
+          "id": "eco-lights.choice-3",
+          "text": "再加幾盞",
+          "wrongReason": "「再加幾盞」不符合題目。關閉不用的燈才能減少耗電；遮住並不會讓燈停止用電。"
+        },
+        {
+          "id": "eco-lights.choice-4",
+          "text": "遮起來繼續開",
+          "wrongReason": "「遮起來繼續開」不符合題目。關閉不用的燈才能減少耗電；遮住並不會讓燈停止用電。"
+        }
+      ],
+      "answer": {
+        "id": "eco-lights.answer",
+        "optionId": "eco-lights.choice-2"
+      },
+      "hint": {
+        "id": "eco-lights.hint",
+        "text": "沒有人使用時，可以停止不必要的耗電。"
+      }
+    },
+    {
+      "id": "eco-bag",
+      "category": "環保整理",
+      "prompt": "今年的布製糖果袋還很完整，明年可以怎麼辦？",
+      "options": [
+        {
+          "id": "eco-bag.choice-1",
+          "text": "洗淨收好再使用"
+        },
+        {
+          "id": "eco-bag.choice-2",
+          "text": "每年一定要丟掉",
+          "wrongReason": "「每年一定要丟掉」不符合題目。清潔保存可重複使用，其他選項會不必要地縮短物品壽命。"
+        },
+        {
+          "id": "eco-bag.choice-3",
+          "text": "剪壞再買新的",
+          "wrongReason": "「剪壞再買新的」不符合題目。清潔保存可重複使用，其他選項會不必要地縮短物品壽命。"
+        },
+        {
+          "id": "eco-bag.choice-4",
+          "text": "故意弄破",
+          "wrongReason": "「故意弄破」不符合題目。清潔保存可重複使用，其他選項會不必要地縮短物品壽命。"
+        }
+      ],
+      "answer": {
+        "id": "eco-bag.answer",
+        "optionId": "eco-bag.choice-1"
+      },
+      "hint": {
+        "id": "eco-bag.hint",
+        "text": "完整物品可以延長使用時間。"
+      }
+    },
+    {
+      "id": "eco-portion",
+      "category": "環保整理",
+      "prompt": "點心桌上還有很多食物，怎樣取用比較不容易浪費？",
+      "options": [
+        {
+          "id": "eco-portion.choice-1",
+          "text": "先拿超大盤吃不完再丟",
+          "wrongReason": "「先拿超大盤吃不完再丟」不符合題目。少量取用能降低吃不完的情況，其餘做法容易剩下大量食物。"
+        },
+        {
+          "id": "eco-portion.choice-2",
+          "text": "依自己食量少量取用，不夠再拿"
+        },
+        {
+          "id": "eco-portion.choice-3",
+          "text": "每種都拿十份",
+          "wrongReason": "「每種都拿十份」不符合題目。少量取用能降低吃不完的情況，其餘做法容易剩下大量食物。"
+        },
+        {
+          "id": "eco-portion.choice-4",
+          "text": "只挑最大的份量",
+          "wrongReason": "「只挑最大的份量」不符合題目。少量取用能降低吃不完的情況，其餘做法容易剩下大量食物。"
+        }
+      ],
+      "answer": {
+        "id": "eco-portion.answer",
+        "optionId": "eco-portion.choice-2"
+      },
+      "hint": {
+        "id": "eco-portion.hint",
+        "text": "先取吃得完的量。"
+      }
+    },
+    {
+      "id": "eco-sort",
+      "category": "環保整理",
+      "prompt": "清理桌面時，還能用的剪刀應放哪裡？",
+      "options": [
+        {
+          "id": "eco-sort.choice-1",
+          "text": "工具收納盒"
+        },
+        {
+          "id": "eco-sort.choice-2",
+          "text": "食物剩餘物裡",
+          "wrongReason": "「食物剩餘物裡」不符合題目。工具收納盒能保存並找到剪刀，其他位置容易弄髒、遺失或造成不便。"
+        },
+        {
+          "id": "eco-sort.choice-3",
+          "text": "隨手丟地上",
+          "wrongReason": "「隨手丟地上」不符合題目。工具收納盒能保存並找到剪刀，其他位置容易弄髒、遺失或造成不便。"
+        },
+        {
+          "id": "eco-sort.choice-4",
+          "text": "藏在椅墊下",
+          "wrongReason": "「藏在椅墊下」不符合題目。工具收納盒能保存並找到剪刀，其他位置容易弄髒、遺失或造成不便。"
+        }
+      ],
+      "answer": {
+        "id": "eco-sort.answer",
+        "optionId": "eco-sort.choice-1"
+      },
+      "hint": {
+        "id": "eco-sort.hint",
+        "text": "讓工具回到方便下次使用的位置。"
+      }
+    },
+    {
+      "id": "eco-invite",
+      "category": "環保整理",
+      "prompt": "同一群朋友都能讀電子訊息，想減少紙張可用哪種邀請方式？",
+      "options": [
+        {
+          "id": "eco-invite.choice-1",
+          "text": "每人寄十份紙卡",
+          "wrongReason": "「每人寄十份紙卡」不符合題目。電子邀請可不印紙，其餘做法都增加紙張使用。"
+        },
+        {
+          "id": "eco-invite.choice-2",
+          "text": "傳送電子邀請卡"
+        },
+        {
+          "id": "eco-invite.choice-3",
+          "text": "把所有卡印兩次",
+          "wrongReason": "「把所有卡印兩次」不符合題目。電子邀請可不印紙，其餘做法都增加紙張使用。"
+        },
+        {
+          "id": "eco-invite.choice-4",
+          "text": "每改一字重印全部",
+          "wrongReason": "「每改一字重印全部」不符合題目。電子邀請可不印紙，其餘做法都增加紙張使用。"
+        }
+      ],
+      "answer": {
+        "id": "eco-invite.answer",
+        "optionId": "eco-invite.choice-2"
+      },
+      "hint": {
+        "id": "eco-invite.hint",
+        "text": "找不需要印紙的方式。"
+      }
+    },
+    {
+      "id": "eco-repair",
+      "category": "環保整理",
+      "prompt": "南瓜布旗只有一小段線鬆開，可以先怎麼辦？",
+      "options": [
+        {
+          "id": "eco-repair.choice-1",
+          "text": "查看能否修補"
+        },
+        {
+          "id": "eco-repair.choice-2",
+          "text": "直接剪碎整條",
+          "wrongReason": "「直接剪碎整條」不符合題目。先查看修補可能性有助延長使用時間，其他做法都沒有嘗試修復。"
+        },
+        {
+          "id": "eco-repair.choice-3",
+          "text": "立刻買十條代替",
+          "wrongReason": "「立刻買十條代替」不符合題目。先查看修補可能性有助延長使用時間，其他做法都沒有嘗試修復。"
+        },
+        {
+          "id": "eco-repair.choice-4",
+          "text": "故意扯開其他地方",
+          "wrongReason": "「故意扯開其他地方」不符合題目。先查看修補可能性有助延長使用時間，其他做法都沒有嘗試修復。"
+        }
+      ],
+      "answer": {
+        "id": "eco-repair.answer",
+        "optionId": "eco-repair.choice-1"
+      },
+      "hint": {
+        "id": "eco-repair.hint",
+        "text": "小損壞不一定要整件汰換。"
+      }
+    },
+    {
+      "id": "eco-borrow",
+      "category": "環保整理",
+      "prompt": "只用一晚的裝飾架，鄰居有閒置且願意借用，哪種選擇能少買一件？",
+      "options": [
+        {
+          "id": "eco-borrow.choice-1",
+          "text": "借用後妥善歸還"
+        },
+        {
+          "id": "eco-borrow.choice-2",
+          "text": "買一件用完就丟",
+          "wrongReason": "「買一件用完就丟」不符合題目。借用並歸還能重複利用現有架子，購買多件或藏匿都不符合目的。"
+        },
+        {
+          "id": "eco-borrow.choice-3",
+          "text": "先買三件備用",
+          "wrongReason": "「先買三件備用」不符合題目。借用並歸還能重複利用現有架子，購買多件或藏匿都不符合目的。"
+        },
+        {
+          "id": "eco-borrow.choice-4",
+          "text": "把鄰居的架子藏起來",
+          "wrongReason": "「把鄰居的架子藏起來」不符合題目。借用並歸還能重複利用現有架子，購買多件或藏匿都不符合目的。"
+        }
+      ],
+      "answer": {
+        "id": "eco-borrow.answer",
+        "optionId": "eco-borrow.choice-1"
+      },
+      "hint": {
+        "id": "eco-borrow.hint",
+        "text": "共享現有物品可以減少新增購買。"
+      }
+    },
+    {
+      "id": "eco-clean",
+      "category": "環保整理",
+      "prompt": "活動結束要讓場地恢復整潔，哪個做法合適？",
+      "options": [
+        {
+          "id": "eco-clean.choice-1",
+          "text": "把垃圾推到桌下",
+          "wrongReason": "「把垃圾推到桌下」不符合題目。收好物品並妥善集中垃圾才是清理，藏起來或散落地上不算完成。"
+        },
+        {
+          "id": "eco-clean.choice-2",
+          "text": "把物品分類收好、垃圾帶到指定收集處"
+        },
+        {
+          "id": "eco-clean.choice-3",
+          "text": "把紙屑撒到走道",
+          "wrongReason": "「把紙屑撒到走道」不符合題目。收好物品並妥善集中垃圾才是清理，藏起來或散落地上不算完成。"
+        },
+        {
+          "id": "eco-clean.choice-4",
+          "text": "只拍照不收拾",
+          "wrongReason": "「只拍照不收拾」不符合題目。收好物品並妥善集中垃圾才是清理，藏起來或散落地上不算完成。"
+        }
+      ],
+      "answer": {
+        "id": "eco-clean.answer",
+        "optionId": "eco-clean.choice-2"
+      },
+      "hint": {
+        "id": "eco-clean.hint",
+        "text": "看得到、看不到的地方都要整理。"
+      }
+    },
+    {
+      "id": "word-pumpkin",
+      "category": "語文謎語",
+      "prompt": "派對字卡少一字：「南＿燈」。空格應填什麼？",
+      "options": [
+        {
+          "id": "word-pumpkin.choice-1",
+          "text": "瓜"
+        },
+        {
+          "id": "word-pumpkin.choice-2",
+          "text": "花",
+          "wrongReason": "「花」不符合題目。正確詞語是南瓜燈，其他字不組成本題的名稱。"
+        },
+        {
+          "id": "word-pumpkin.choice-3",
+          "text": "星",
+          "wrongReason": "「星」不符合題目。正確詞語是南瓜燈，其他字不組成本題的名稱。"
+        },
+        {
+          "id": "word-pumpkin.choice-4",
+          "text": "月",
+          "wrongReason": "「月」不符合題目。正確詞語是南瓜燈，其他字不組成本題的名稱。"
+        }
+      ],
+      "answer": {
+        "id": "word-pumpkin.answer",
+        "optionId": "word-pumpkin.choice-1"
+      },
+      "hint": {
+        "id": "word-pumpkin.hint",
+        "text": "想想本次迷徑裡的燈。"
+      }
+    },
+    {
+      "id": "word-bat",
+      "category": "語文謎語",
+      "prompt": "字卡「蝙蝠」共有幾個中文字？",
+      "options": [
+        {
+          "id": "word-bat.choice-1",
+          "text": "1個",
+          "wrongReason": "「1個」不符合題目。蝙、蝠共兩個字；不是在數筆畫或動物數量。"
+        },
+        {
+          "id": "word-bat.choice-2",
+          "text": "2個"
+        },
+        {
+          "id": "word-bat.choice-3",
+          "text": "3個",
+          "wrongReason": "「3個」不符合題目。蝙、蝠共兩個字；不是在數筆畫或動物數量。"
+        },
+        {
+          "id": "word-bat.choice-4",
+          "text": "4個",
+          "wrongReason": "「4個」不符合題目。蝙、蝠共兩個字；不是在數筆畫或動物數量。"
+        }
+      ],
+      "answer": {
+        "id": "word-bat.answer",
+        "optionId": "word-bat.choice-2"
+      },
+      "hint": {
+        "id": "word-bat.hint",
+        "text": "把每個字分開數。"
+      }
+    },
+    {
+      "id": "word-ghost",
+      "category": "語文謎語",
+      "prompt": "主持人說「請慢慢走」，最接近的意思是？",
+      "options": [
+        {
+          "id": "word-ghost.choice-1",
+          "text": "走得更快",
+          "wrongReason": "「走得更快」不符合題目。慢慢走指降低行走速度，不是禁止移動或改成跳躍。"
+        },
+        {
+          "id": "word-ghost.choice-2",
+          "text": "放慢腳步"
+        },
+        {
+          "id": "word-ghost.choice-3",
+          "text": "完全不准移動",
+          "wrongReason": "「完全不准移動」不符合題目。慢慢走指降低行走速度，不是禁止移動或改成跳躍。"
+        },
+        {
+          "id": "word-ghost.choice-4",
+          "text": "跳著前進",
+          "wrongReason": "「跳著前進」不符合題目。慢慢走指降低行走速度，不是禁止移動或改成跳躍。"
+        }
+      ],
+      "answer": {
+        "id": "word-ghost.answer",
+        "optionId": "word-ghost.choice-2"
+      },
+      "hint": {
+        "id": "word-ghost.hint",
+        "text": "注意「慢慢」是在描述速度。"
+      }
+    },
+    {
+      "id": "word-opposite",
+      "category": "語文謎語",
+      "prompt": "南瓜牌寫著「明亮」，哪個詞意思相反？",
+      "options": [
+        {
+          "id": "word-opposite.choice-1",
+          "text": "發光",
+          "wrongReason": "「發光」不符合題目。黑暗與明亮相反，發光、閃耀都與亮有關。"
+        },
+        {
+          "id": "word-opposite.choice-2",
+          "text": "閃耀",
+          "wrongReason": "「閃耀」不符合題目。黑暗與明亮相反，發光、閃耀都與亮有關。"
+        },
+        {
+          "id": "word-opposite.choice-3",
+          "text": "黑暗"
+        },
+        {
+          "id": "word-opposite.choice-4",
+          "text": "清楚",
+          "wrongReason": "「清楚」不符合題目。黑暗與明亮相反，發光、閃耀都與亮有關。"
+        }
+      ],
+      "answer": {
+        "id": "word-opposite.answer",
+        "optionId": "word-opposite.choice-3"
+      },
+      "hint": {
+        "id": "word-opposite.hint",
+        "text": "找描述沒有光的詞。"
+      }
+    },
+    {
+      "id": "word-sound",
+      "category": "語文謎語",
+      "prompt": "漫畫裡用「叮咚」描述門鈴，這類詞主要在模仿什麼？",
+      "options": [
+        {
+          "id": "word-sound.choice-1",
+          "text": "顏色",
+          "wrongReason": "「顏色」不符合題目。叮咚模仿聲音，不是在描述物體的外形或重量。"
+        },
+        {
+          "id": "word-sound.choice-2",
+          "text": "聲音"
+        },
+        {
+          "id": "word-sound.choice-3",
+          "text": "重量",
+          "wrongReason": "「重量」不符合題目。叮咚模仿聲音，不是在描述物體的外形或重量。"
+        },
+        {
+          "id": "word-sound.choice-4",
+          "text": "形狀",
+          "wrongReason": "「形狀」不符合題目。叮咚模仿聲音，不是在描述物體的外形或重量。"
+        }
+      ],
+      "answer": {
+        "id": "word-sound.answer",
+        "optionId": "word-sound.choice-2"
+      },
+      "hint": {
+        "id": "word-sound.hint",
+        "text": "讀出來像聽到了什麼。"
+      }
+    },
+    {
+      "id": "word-polite",
+      "category": "語文謎語",
+      "prompt": "想請同伴幫忙拿裝飾，哪句話比較有禮貌？",
+      "options": [
+        {
+          "id": "word-polite.choice-1",
+          "text": "快拿來，不准拒絕",
+          "wrongReason": "「快拿來，不准拒絕」不符合題目。用請問並詢問意願是禮貌請求，其餘都是命令或責備。"
+        },
+        {
+          "id": "word-polite.choice-2",
+          "text": "請問可以幫我拿一下嗎？"
+        },
+        {
+          "id": "word-polite.choice-3",
+          "text": "你怎麼還不拿",
+          "wrongReason": "「你怎麼還不拿」不符合題目。用請問並詢問意願是禮貌請求，其餘都是命令或責備。"
+        },
+        {
+          "id": "word-polite.choice-4",
+          "text": "我不想等，立刻做",
+          "wrongReason": "「我不想等，立刻做」不符合題目。用請問並詢問意願是禮貌請求，其餘都是命令或責備。"
+        }
+      ],
+      "answer": {
+        "id": "word-polite.answer",
+        "optionId": "word-polite.choice-2"
+      },
+      "hint": {
+        "id": "word-polite.hint",
+        "text": "請求可以包含請問與尊重的語氣。"
+      }
+    },
+    {
+      "id": "word-riddle",
+      "category": "語文謎語",
+      "prompt": "小謎語：「身體圓圓橘色皮，挖出表情肚裡亮。」最符合哪個派對裝飾？",
+      "options": [
+        {
+          "id": "word-riddle.choice-1",
+          "text": "紙蝙蝠",
+          "wrongReason": "「紙蝙蝠」不符合題目。南瓜燈能符合全部線索，其他裝飾缺少多項特徵。"
+        },
+        {
+          "id": "word-riddle.choice-2",
+          "text": "南瓜燈"
+        },
+        {
+          "id": "word-riddle.choice-3",
+          "text": "掃帚",
+          "wrongReason": "「掃帚」不符合題目。南瓜燈能符合全部線索，其他裝飾缺少多項特徵。"
+        },
+        {
+          "id": "word-riddle.choice-4",
+          "text": "邀請卡",
+          "wrongReason": "「邀請卡」不符合題目。南瓜燈能符合全部線索，其他裝飾缺少多項特徵。"
+        }
+      ],
+      "answer": {
+        "id": "word-riddle.answer",
+        "optionId": "word-riddle.choice-2"
+      },
+      "hint": {
+        "id": "word-riddle.hint",
+        "text": "同時找圓、橘色、挖表情與發光的線索。"
+      }
+    },
+    {
+      "id": "word-instruction",
+      "category": "語文謎語",
+      "prompt": "指示卡寫「先讀題，再選路」，哪件事要先做？",
+      "options": [
+        {
+          "id": "word-instruction.choice-1",
+          "text": "選路",
+          "wrongReason": "「選路」不符合題目。先讀題的先明確指定順序，選路是在後面。"
+        },
+        {
+          "id": "word-instruction.choice-2",
+          "text": "讀題"
+        },
+        {
+          "id": "word-instruction.choice-3",
+          "text": "直接離開",
+          "wrongReason": "「直接離開」不符合題目。先讀題的先明確指定順序，選路是在後面。"
+        },
+        {
+          "id": "word-instruction.choice-4",
+          "text": "隨便猜",
+          "wrongReason": "「隨便猜」不符合題目。先讀題的先明確指定順序，選路是在後面。"
+        }
+      ],
+      "answer": {
+        "id": "word-instruction.answer",
+        "optionId": "word-instruction.choice-2"
+      },
+      "hint": {
+        "id": "word-instruction.hint",
+        "text": "注意「先」後面接的動作。"
+      }
+    },
+    {
+      "id": "word-category",
+      "category": "語文謎語",
+      "prompt": "「南瓜燈、紙燈籠、小夜燈」這組詞共同包含哪個字？",
+      "options": [
+        {
+          "id": "word-category.choice-1",
+          "text": "紙",
+          "wrongReason": "「紙」不符合題目。三個詞都有燈；其他字只出現在其中一個詞裡。"
+        },
+        {
+          "id": "word-category.choice-2",
+          "text": "南",
+          "wrongReason": "「南」不符合題目。三個詞都有燈；其他字只出現在其中一個詞裡。"
+        },
+        {
+          "id": "word-category.choice-3",
+          "text": "燈"
+        },
+        {
+          "id": "word-category.choice-4",
+          "text": "夜",
+          "wrongReason": "「夜」不符合題目。三個詞都有燈；其他字只出現在其中一個詞裡。"
+        }
+      ],
+      "answer": {
+        "id": "word-category.answer",
+        "optionId": "word-category.choice-3"
+      },
+      "hint": {
+        "id": "word-category.hint",
+        "text": "逐一找三個詞都出現的字。"
+      }
+    },
+    {
+      "id": "word-title",
+      "category": "語文謎語",
+      "prompt": "要幫一本記錄派對點心做法的小冊取名，哪個最符合內容？",
+      "options": [
+        {
+          "id": "word-title.choice-1",
+          "text": "點心食譜"
+        },
+        {
+          "id": "word-title.choice-2",
+          "text": "迷宮地圖",
+          "wrongReason": "「迷宮地圖」不符合題目。記錄點心做法的是食譜，其他標題對應不同主題。"
+        },
+        {
+          "id": "word-title.choice-3",
+          "text": "星空觀察",
+          "wrongReason": "「星空觀察」不符合題目。記錄點心做法的是食譜，其他標題對應不同主題。"
+        },
+        {
+          "id": "word-title.choice-4",
+          "text": "交通時刻表",
+          "wrongReason": "「交通時刻表」不符合題目。記錄點心做法的是食譜，其他標題對應不同主題。"
+        }
+      ],
+      "answer": {
+        "id": "word-title.answer",
+        "optionId": "word-title.choice-1"
+      },
+      "hint": {
+        "id": "word-title.hint",
+        "text": "標題要能說明內容在教什麼。"
+      }
+    },
+    {
+      "id": "time-start",
+      "category": "時間規劃",
+      "prompt": "派對18:00開始，提前15分鐘到場是幾點？",
+      "options": [
+        {
+          "id": "time-start.choice-1",
+          "text": "17:15",
+          "wrongReason": "「17:15」不符合題目。18:00減15分鐘是17:45，不是開始後15分鐘。"
+        },
+        {
+          "id": "time-start.choice-2",
+          "text": "17:45"
+        },
+        {
+          "id": "time-start.choice-3",
+          "text": "18:15",
+          "wrongReason": "「18:15」不符合題目。18:00減15分鐘是17:45，不是開始後15分鐘。"
+        },
+        {
+          "id": "time-start.choice-4",
+          "text": "18:45",
+          "wrongReason": "「18:45」不符合題目。18:00減15分鐘是17:45，不是開始後15分鐘。"
+        }
+      ],
+      "answer": {
+        "id": "time-start.answer",
+        "optionId": "time-start.choice-2"
+      },
+      "hint": {
+        "id": "time-start.hint",
+        "text": "提前表示往前推時間。"
+      }
+    },
+    {
+      "id": "time-duration",
+      "category": "時間規劃",
+      "prompt": "南瓜剪紙活動從19:10到19:30，共多久？",
+      "options": [
+        {
+          "id": "time-duration.choice-1",
+          "text": "10分鐘",
+          "wrongReason": "「10分鐘」不符合題目。30－10＝20分鐘，時數沒有跨整點。"
+        },
+        {
+          "id": "time-duration.choice-2",
+          "text": "15分鐘",
+          "wrongReason": "「15分鐘」不符合題目。30－10＝20分鐘，時數沒有跨整點。"
+        },
+        {
+          "id": "time-duration.choice-3",
+          "text": "20分鐘"
+        },
+        {
+          "id": "time-duration.choice-4",
+          "text": "30分鐘",
+          "wrongReason": "「30分鐘」不符合題目。30－10＝20分鐘，時數沒有跨整點。"
+        }
+      ],
+      "answer": {
+        "id": "time-duration.answer",
+        "optionId": "time-duration.choice-3"
+      },
+      "hint": {
+        "id": "time-duration.hint",
+        "text": "用結束時間減開始時間。"
+      }
+    },
+    {
+      "id": "time-next",
+      "category": "時間規劃",
+      "prompt": "18:40開始玩遊戲，玩25分鐘後是？",
+      "options": [
+        {
+          "id": "time-next.choice-1",
+          "text": "18:55",
+          "wrongReason": "「18:55」不符合題目。18:40過20分鐘是19:00，再過5分鐘為19:05。"
+        },
+        {
+          "id": "time-next.choice-2",
+          "text": "19:00",
+          "wrongReason": "「19:00」不符合題目。18:40過20分鐘是19:00，再過5分鐘為19:05。"
+        },
+        {
+          "id": "time-next.choice-3",
+          "text": "19:05"
+        },
+        {
+          "id": "time-next.choice-4",
+          "text": "19:25",
+          "wrongReason": "「19:25」不符合題目。18:40過20分鐘是19:00，再過5分鐘為19:05。"
+        }
+      ],
+      "answer": {
+        "id": "time-next.answer",
+        "optionId": "time-next.choice-3"
+      },
+      "hint": {
+        "id": "time-next.hint",
+        "text": "先走到19:00，再算剩下幾分鐘。"
+      }
+    },
+    {
+      "id": "time-schedule",
+      "category": "時間規劃",
+      "prompt": "剪紙要10分鐘，掛布旗要15分鐘，依序做完共多久？",
+      "options": [
+        {
+          "id": "time-schedule.choice-1",
+          "text": "5分鐘",
+          "wrongReason": "「5分鐘」不符合題目。10＋15＝25分鐘，不是只算比較久的一項。"
+        },
+        {
+          "id": "time-schedule.choice-2",
+          "text": "15分鐘",
+          "wrongReason": "「15分鐘」不符合題目。10＋15＝25分鐘，不是只算比較久的一項。"
+        },
+        {
+          "id": "time-schedule.choice-3",
+          "text": "20分鐘",
+          "wrongReason": "「20分鐘」不符合題目。10＋15＝25分鐘，不是只算比較久的一項。"
+        },
+        {
+          "id": "time-schedule.choice-4",
+          "text": "25分鐘"
+        }
+      ],
+      "answer": {
+        "id": "time-schedule.answer",
+        "optionId": "time-schedule.choice-4"
+      },
+      "hint": {
+        "id": "time-schedule.hint",
+        "text": "兩個工作是先後進行，時間要相加。"
+      }
+    },
+    {
+      "id": "time-half-hour",
+      "category": "時間規劃",
+      "prompt": "半小時等於幾分鐘？",
+      "options": [
+        {
+          "id": "time-half-hour.choice-1",
+          "text": "15分鐘",
+          "wrongReason": "「15分鐘」不符合題目。60的一半是30分鐘。"
+        },
+        {
+          "id": "time-half-hour.choice-2",
+          "text": "20分鐘",
+          "wrongReason": "「20分鐘」不符合題目。60的一半是30分鐘。"
+        },
+        {
+          "id": "time-half-hour.choice-3",
+          "text": "30分鐘"
+        },
+        {
+          "id": "time-half-hour.choice-4",
+          "text": "45分鐘",
+          "wrongReason": "「45分鐘」不符合題目。60的一半是30分鐘。"
+        }
+      ],
+      "answer": {
+        "id": "time-half-hour.answer",
+        "optionId": "time-half-hour.choice-3"
+      },
+      "hint": {
+        "id": "time-half-hour.hint",
+        "text": "一小時是60分鐘，取一半。"
+      }
+    },
+    {
+      "id": "time-before",
+      "category": "時間規劃",
+      "prompt": "四個活動時間裡，哪個最早？",
+      "options": [
+        {
+          "id": "time-before.choice-1",
+          "text": "18:30",
+          "wrongReason": "「18:30」不符合題目。17點比18點與19點早，所以17:50最早。"
+        },
+        {
+          "id": "time-before.choice-2",
+          "text": "17:50"
+        },
+        {
+          "id": "time-before.choice-3",
+          "text": "18:05",
+          "wrongReason": "「18:05」不符合題目。17點比18點與19點早，所以17:50最早。"
+        },
+        {
+          "id": "time-before.choice-4",
+          "text": "19:00",
+          "wrongReason": "「19:00」不符合題目。17點比18點與19點早，所以17:50最早。"
+        }
+      ],
+      "answer": {
+        "id": "time-before.answer",
+        "optionId": "time-before.choice-2"
+      },
+      "hint": {
+        "id": "time-before.hint",
+        "text": "先比較小時，再比較分鐘。"
+      }
+    },
+    {
+      "id": "time-after",
+      "category": "時間規劃",
+      "prompt": "整理從20:45開始，15分鐘後結束。結束時間是？",
+      "options": [
+        {
+          "id": "time-after.choice-1",
+          "text": "20:50",
+          "wrongReason": "「20:50」不符合題目。20:45加15分鐘是21:00，不會停在20點內。"
+        },
+        {
+          "id": "time-after.choice-2",
+          "text": "20:55",
+          "wrongReason": "「20:55」不符合題目。20:45加15分鐘是21:00，不會停在20點內。"
+        },
+        {
+          "id": "time-after.choice-3",
+          "text": "21:00"
+        },
+        {
+          "id": "time-after.choice-4",
+          "text": "21:15",
+          "wrongReason": "「21:15」不符合題目。20:45加15分鐘是21:00，不會停在20點內。"
+        }
+      ],
+      "answer": {
+        "id": "time-after.answer",
+        "optionId": "time-after.choice-3"
+      },
+      "hint": {
+        "id": "time-after.hint",
+        "text": "45分鐘再加15分鐘會進到下一小時。"
+      }
+    },
+    {
+      "id": "time-clock",
+      "category": "時間規劃",
+      "prompt": "24小時制的晚上8點寫成？",
+      "options": [
+        {
+          "id": "time-clock.choice-1",
+          "text": "08:00",
+          "wrongReason": "「08:00」不符合題目。晚上8點是8＋12＝20，因此寫作20:00。"
+        },
+        {
+          "id": "time-clock.choice-2",
+          "text": "12:00",
+          "wrongReason": "「12:00」不符合題目。晚上8點是8＋12＝20，因此寫作20:00。"
+        },
+        {
+          "id": "time-clock.choice-3",
+          "text": "18:00",
+          "wrongReason": "「18:00」不符合題目。晚上8點是8＋12＝20，因此寫作20:00。"
+        },
+        {
+          "id": "time-clock.choice-4",
+          "text": "20:00"
+        }
+      ],
+      "answer": {
+        "id": "time-clock.answer",
+        "optionId": "time-clock.choice-4"
+      },
+      "hint": {
+        "id": "time-clock.hint",
+        "text": "下午與晚上的小時要加12。"
+      }
+    },
+    {
+      "id": "time-wait",
+      "category": "時間規劃",
+      "prompt": "現在18:12，下一輪猜謎18:20開始，還要等多久？",
+      "options": [
+        {
+          "id": "time-wait.choice-1",
+          "text": "6分鐘",
+          "wrongReason": "「6分鐘」不符合題目。20－12＝8分鐘，不是在問現在的分鐘數。"
+        },
+        {
+          "id": "time-wait.choice-2",
+          "text": "8分鐘"
+        },
+        {
+          "id": "time-wait.choice-3",
+          "text": "10分鐘",
+          "wrongReason": "「10分鐘」不符合題目。20－12＝8分鐘，不是在問現在的分鐘數。"
+        },
+        {
+          "id": "time-wait.choice-4",
+          "text": "12分鐘",
+          "wrongReason": "「12分鐘」不符合題目。20－12＝8分鐘，不是在問現在的分鐘數。"
+        }
+      ],
+      "answer": {
+        "id": "time-wait.answer",
+        "optionId": "time-wait.choice-2"
+      },
+      "hint": {
+        "id": "time-wait.hint",
+        "text": "20減去目前的分鐘數。"
+      }
+    },
+    {
+      "id": "time-turns",
+      "category": "時間規劃",
+      "prompt": "每輪遊戲5分鐘，連玩4輪且中間不休息，共多久？",
+      "options": [
+        {
+          "id": "time-turns.choice-1",
+          "text": "9分鐘",
+          "wrongReason": "「9分鐘」不符合題目。5×4＝20分鐘；沒有額外休息時間需要加上。"
+        },
+        {
+          "id": "time-turns.choice-2",
+          "text": "15分鐘",
+          "wrongReason": "「15分鐘」不符合題目。5×4＝20分鐘；沒有額外休息時間需要加上。"
+        },
+        {
+          "id": "time-turns.choice-3",
+          "text": "20分鐘"
+        },
+        {
+          "id": "time-turns.choice-4",
+          "text": "25分鐘",
+          "wrongReason": "「25分鐘」不符合題目。5×4＝20分鐘；沒有額外休息時間需要加上。"
+        }
+      ],
+      "answer": {
+        "id": "time-turns.answer",
+        "optionId": "time-turns.choice-3"
+      },
+      "hint": {
+        "id": "time-turns.hint",
+        "text": "相同的5分鐘重複4次。"
+      }
+    },
+    {
+      "id": "classify-color",
+      "category": "觀察分類",
+      "prompt": "哪一組全都是暖色系的橘、紅或黃？",
+      "options": [
+        {
+          "id": "classify-color.choice-1",
+          "text": "橘、紅、黃"
+        },
+        {
+          "id": "classify-color.choice-2",
+          "text": "藍、綠、紫",
+          "wrongReason": "「藍、綠、紫」不符合題目。只有第一組的每一色都在橘、紅、黃範圍內，其他組含不符合的顏色。"
+        },
+        {
+          "id": "classify-color.choice-3",
+          "text": "橘、藍、紅",
+          "wrongReason": "「橘、藍、紅」不符合題目。只有第一組的每一色都在橘、紅、黃範圍內，其他組含不符合的顏色。"
+        },
+        {
+          "id": "classify-color.choice-4",
+          "text": "黃、綠、藍",
+          "wrongReason": "「黃、綠、藍」不符合題目。只有第一組的每一色都在橘、紅、黃範圍內，其他組含不符合的顏色。"
+        }
+      ],
+      "answer": {
+        "id": "classify-color.answer",
+        "optionId": "classify-color.choice-1"
+      },
+      "hint": {
+        "id": "classify-color.hint",
+        "text": "題目已限定可使用的三種顏色。"
+      }
+    },
+    {
+      "id": "classify-tool",
+      "category": "觀察分類",
+      "prompt": "哪一樣最適合用來把紙剪成蝙蝠形狀？",
+      "options": [
+        {
+          "id": "classify-tool.choice-1",
+          "text": "湯匙",
+          "wrongReason": "「湯匙」不符合題目。剪刀的用途是剪裁，其他選項不是剪紙工具。"
+        },
+        {
+          "id": "classify-tool.choice-2",
+          "text": "剪刀"
+        },
+        {
+          "id": "classify-tool.choice-3",
+          "text": "水杯",
+          "wrongReason": "「水杯」不符合題目。剪刀的用途是剪裁，其他選項不是剪紙工具。"
+        },
+        {
+          "id": "classify-tool.choice-4",
+          "text": "枕頭",
+          "wrongReason": "「枕頭」不符合題目。剪刀的用途是剪裁，其他選項不是剪紙工具。"
+        }
+      ],
+      "answer": {
+        "id": "classify-tool.answer",
+        "optionId": "classify-tool.choice-2"
+      },
+      "hint": {
+        "id": "classify-tool.hint",
+        "text": "需要能剪紙的工具。"
+      }
+    },
+    {
+      "id": "classify-container",
+      "category": "觀察分類",
+      "prompt": "要把糖果裝好帶走，哪一樣是容器？",
+      "options": [
+        {
+          "id": "classify-container.choice-1",
+          "text": "糖果袋"
+        },
+        {
+          "id": "classify-container.choice-2",
+          "text": "一束燈光",
+          "wrongReason": "「一束燈光」不符合題目。糖果袋能裝東西，光、音樂與影子都不能盛裝糖果。"
+        },
+        {
+          "id": "classify-container.choice-3",
+          "text": "一段音樂",
+          "wrongReason": "「一段音樂」不符合題目。糖果袋能裝東西，光、音樂與影子都不能盛裝糖果。"
+        },
+        {
+          "id": "classify-container.choice-4",
+          "text": "一個影子",
+          "wrongReason": "「一個影子」不符合題目。糖果袋能裝東西，光、音樂與影子都不能盛裝糖果。"
+        }
+      ],
+      "answer": {
+        "id": "classify-container.answer",
+        "optionId": "classify-container.choice-1"
+      },
+      "hint": {
+        "id": "classify-container.hint",
+        "text": "容器要能實際盛裝物品。"
+      }
+    },
+    {
+      "id": "classify-count",
+      "category": "觀察分類",
+      "prompt": "哪一組包含恰好三種不同的圖案？",
+      "options": [
+        {
+          "id": "classify-count.choice-1",
+          "text": "南瓜、南瓜、南瓜",
+          "wrongReason": "「南瓜、南瓜、南瓜」不符合題目。只有南瓜、蝙蝠、幽靈三者都不同，其餘組至少有重複。"
+        },
+        {
+          "id": "classify-count.choice-2",
+          "text": "蝙蝠、蝙蝠、幽靈",
+          "wrongReason": "「蝙蝠、蝙蝠、幽靈」不符合題目。只有南瓜、蝙蝠、幽靈三者都不同，其餘組至少有重複。"
+        },
+        {
+          "id": "classify-count.choice-3",
+          "text": "南瓜、蝙蝠、幽靈"
+        },
+        {
+          "id": "classify-count.choice-4",
+          "text": "南瓜、南瓜、蝙蝠",
+          "wrongReason": "「南瓜、南瓜、蝙蝠」不符合題目。只有南瓜、蝙蝠、幽靈三者都不同，其餘組至少有重複。"
+        }
+      ],
+      "answer": {
+        "id": "classify-count.answer",
+        "optionId": "classify-count.choice-3"
+      },
+      "hint": {
+        "id": "classify-count.hint",
+        "text": "重複的圖案不能算成新種類。"
+      }
+    },
+    {
+      "id": "classify-letter",
+      "category": "觀察分類",
+      "prompt": "答案標記依序為A、B、C、D，哪個是第三個？",
+      "options": [
+        {
+          "id": "classify-letter.choice-1",
+          "text": "A",
+          "wrongReason": "「A」不符合題目。A第一、B第二、C第三、D第四。"
+        },
+        {
+          "id": "classify-letter.choice-2",
+          "text": "B",
+          "wrongReason": "「B」不符合題目。A第一、B第二、C第三、D第四。"
+        },
+        {
+          "id": "classify-letter.choice-3",
+          "text": "C"
+        },
+        {
+          "id": "classify-letter.choice-4",
+          "text": "D",
+          "wrongReason": "「D」不符合題目。A第一、B第二、C第三、D第四。"
+        }
+      ],
+      "answer": {
+        "id": "classify-letter.answer",
+        "optionId": "classify-letter.choice-3"
+      },
+      "hint": {
+        "id": "classify-letter.hint",
+        "text": "從第一個開始逐個數位置。"
+      }
+    },
+    {
+      "id": "classify-material",
+      "category": "觀察分類",
+      "prompt": "要選一個能看穿裡面糖果的透明罐，哪個描述最符合？",
+      "options": [
+        {
+          "id": "classify-material.choice-1",
+          "text": "完全不透光的木盒",
+          "wrongReason": "「完全不透光的木盒」不符合題目。透明玻璃罐符合條件，其餘描述都是看不穿的容器。"
+        },
+        {
+          "id": "classify-material.choice-2",
+          "text": "透明玻璃罐"
+        },
+        {
+          "id": "classify-material.choice-3",
+          "text": "厚紙箱",
+          "wrongReason": "「厚紙箱」不符合題目。透明玻璃罐符合條件，其餘描述都是看不穿的容器。"
+        },
+        {
+          "id": "classify-material.choice-4",
+          "text": "不透明布袋",
+          "wrongReason": "「不透明布袋」不符合題目。透明玻璃罐符合條件，其餘描述都是看不穿的容器。"
+        }
+      ],
+      "answer": {
+        "id": "classify-material.answer",
+        "optionId": "classify-material.choice-2"
+      },
+      "hint": {
+        "id": "classify-material.hint",
+        "text": "透明表示光可通過、能看到裡面。"
+      }
+    },
+    {
+      "id": "classify-same",
+      "category": "觀察分類",
+      "prompt": "原圖是一顆橘色圓形南瓜貼紙，哪張在顏色與形狀上都相同？",
+      "options": [
+        {
+          "id": "classify-same.choice-1",
+          "text": "橘色方形",
+          "wrongReason": "「橘色方形」不符合題目。只有橘色圓形同時符合原圖的顏色和形狀。"
+        },
+        {
+          "id": "classify-same.choice-2",
+          "text": "紫色圓形",
+          "wrongReason": "「紫色圓形」不符合題目。只有橘色圓形同時符合原圖的顏色和形狀。"
+        },
+        {
+          "id": "classify-same.choice-3",
+          "text": "橘色圓形"
+        },
+        {
+          "id": "classify-same.choice-4",
+          "text": "紫色方形",
+          "wrongReason": "「紫色方形」不符合題目。只有橘色圓形同時符合原圖的顏色和形狀。"
+        }
+      ],
+      "answer": {
+        "id": "classify-same.answer",
+        "optionId": "classify-same.choice-3"
+      },
+      "hint": {
+        "id": "classify-same.hint",
+        "text": "兩個特徵都要一樣。"
+      }
+    },
+    {
+      "id": "classify-different",
+      "category": "觀察分類",
+      "prompt": "四張卡是圓形、圓形、三角形、圓形，哪一張形狀不同？",
+      "options": [
+        {
+          "id": "classify-different.choice-1",
+          "text": "第一張",
+          "wrongReason": "「第一張」不符合題目。第三張是三角形，其餘三張都是圓形。"
+        },
+        {
+          "id": "classify-different.choice-2",
+          "text": "第二張",
+          "wrongReason": "「第二張」不符合題目。第三張是三角形，其餘三張都是圓形。"
+        },
+        {
+          "id": "classify-different.choice-3",
+          "text": "第三張"
+        },
+        {
+          "id": "classify-different.choice-4",
+          "text": "第四張",
+          "wrongReason": "「第四張」不符合題目。第三張是三角形，其餘三張都是圓形。"
+        }
+      ],
+      "answer": {
+        "id": "classify-different.answer",
+        "optionId": "classify-different.choice-3"
+      },
+      "hint": {
+        "id": "classify-different.hint",
+        "text": "找唯一不是圓形的卡。"
+      }
+    },
+    {
+      "id": "classify-sound",
+      "category": "觀察分類",
+      "prompt": "要在遊戲裡提醒「答對了」，哪種音效比較符合溫暖鼓勵的氣氛？",
+      "options": [
+        {
+          "id": "classify-sound.choice-1",
+          "text": "短而柔和的上行鈴聲"
+        },
+        {
+          "id": "classify-sound.choice-2",
+          "text": "刺耳又突然的大爆音",
+          "wrongReason": "「刺耳又突然的大爆音」不符合題目。短柔和鈴聲符合題目要求的鼓勵氣氛，其餘聲音太強烈或持續干擾。"
+        },
+        {
+          "id": "classify-sound.choice-3",
+          "text": "持續不停的警報",
+          "wrongReason": "「持續不停的警報」不符合題目。短柔和鈴聲符合題目要求的鼓勵氣氛，其餘聲音太強烈或持續干擾。"
+        },
+        {
+          "id": "classify-sound.choice-4",
+          "text": "完全遮住配樂的尖叫",
+          "wrongReason": "「完全遮住配樂的尖叫」不符合題目。短柔和鈴聲符合題目要求的鼓勵氣氛，其餘聲音太強烈或持續干擾。"
+        }
+      ],
+      "answer": {
+        "id": "classify-sound.answer",
+        "optionId": "classify-sound.choice-1"
+      },
+      "hint": {
+        "id": "classify-sound.hint",
+        "text": "選短、柔和且不嚇人的聲音。"
+      }
+    },
+    {
+      "id": "classify-finish",
+      "category": "觀察分類",
+      "prompt": "整理清單有「收剪刀、收糖袋、關燈」三項。前兩項已打勾，還沒完成哪項？",
+      "options": [
+        {
+          "id": "classify-finish.choice-1",
+          "text": "收剪刀",
+          "wrongReason": "「收剪刀」不符合題目。前兩項已完成，只有關燈仍未打勾。"
+        },
+        {
+          "id": "classify-finish.choice-2",
+          "text": "收糖袋",
+          "wrongReason": "「收糖袋」不符合題目。前兩項已完成，只有關燈仍未打勾。"
+        },
+        {
+          "id": "classify-finish.choice-3",
+          "text": "關燈"
+        },
+        {
+          "id": "classify-finish.choice-4",
+          "text": "全部沒完成",
+          "wrongReason": "「全部沒完成」不符合題目。前兩項已完成，只有關燈仍未打勾。"
+        }
+      ],
+      "answer": {
+        "id": "classify-finish.answer",
+        "optionId": "classify-finish.choice-3"
+      },
+      "hint": {
+        "id": "classify-finish.hint",
+        "text": "打勾表示已完成，找剩下的一項。"
+      }
+    }
+  ],
+  "contentSha256": "5cbd3bd1c6fd50c1a7264074356110a63c4e3cca309856ababa949d37e694d1d"
+}

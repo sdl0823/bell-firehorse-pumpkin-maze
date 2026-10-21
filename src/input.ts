@@ -1,0 +1,2 @@
+import type {Command} from './core';
+export function keyboardCommand(code:string):Command|undefined{const moves:Record<string,number[]>={ArrowUp:[0,-1],KeyW:[0,-1],ArrowDown:[0,1],KeyS:[0,1],ArrowLeft:[-1,0],KeyA:[-1,0],ArrowRight:[1,0],KeyD:[1,0]};if(moves[code])return {type:'move',dx:moves[code][0],dy:moves[code][1]};const actions:Record<string,Command['type']>={KeyE:'interact',Space:'interact',KeyH:'help',Escape:'pause',KeyP:'pause',KeyR:'replay'};const type=actions[code];if(type&&type!=='move')return {type};}

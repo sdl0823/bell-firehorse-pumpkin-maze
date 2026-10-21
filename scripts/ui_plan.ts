@@ -1,0 +1,4 @@
+import {writeFileSync} from 'node:fs';import {initial,command,path,tick} from '../src/core';import {getQuestion} from '../src/questions';
+const s=initial(false,process.argv[2]??'42',false);const plan=[];function go(p:{x:number;y:number},out:string[]){for(const n of path(s,s.player,p).slice(1)){const dx=n.x-s.player.x,dy=n.y-s.player.y;out.push(dx===1?'d':dx===-1?'a':dy===1?'s':'w');command(s,{type:'move',dx,dy});tick(s,220);}}
+for(let i=0;i<3;i++){const st=s.level.stages[i],q=getQuestion(st.questionId),toLamp:string[]=[],toAnswer:string[]=[];go(st.lamp,toLamp);command(s,{type:'interact'});go(st.answers[st.optionIds.indexOf(q.answer.optionId)],toAnswer);command(s,{type:'interact'});plan.push({toLamp,read:'e',toAnswer,answer:'e',question:q.id,correct:'ABCD'[st.optionIds.indexOf(q.answer.optionId)]});}const toExit:string[]=[];go(s.level.exit,toExit);writeFileSync('ui-test-plan.json',JSON.stringify({seed:s.seed,plan,toExit}));
+
